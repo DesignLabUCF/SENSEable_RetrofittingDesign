@@ -1,0 +1,2223 @@
+﻿Log file open, 07/23/21 13:44:41
+LogInit: Display: Project file not found: ../../../AR_Facades/AR_Facades.uproject
+LogInit: Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPakFile: Display: Found Pak file ../../../AR_Facades/Content/Paks/AR_Facades-HoloLens.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../AR_Facades/Content/Paks/AR_Facades-HoloLens.pak.
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.552256
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin DataprepEditor
+LogPluginManager: Mounting plugin VariantManager
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin SunPosition
+LogPluginManager: Mounting plugin UXTools
+LogPluginManager: Mounting plugin WindowsMixedReality
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin HoloLensAR
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: GenericCPUBrand, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Oct 11 2020 08:35:37
+LogInit: Compiled with Visual C++: 19.24.28316.00
+LogInit: Build Configuration: DebugGame
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:\data\Programs\WindowsApps\FRED_1.0.0.0_arm64__v7rfbyxbfjgbe\AR_Facades\Binaries\HoloLens\
+LogInit: Allocator: binned
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[net.DisableIPv6:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[net.DisableIPv6:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Engine.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:4]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.001000]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.001000]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.001000]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.ForwardShading:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.CustomDepth:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[vr.MobileMultiView:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:2]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Engine.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Engine.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Engine.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Engine.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.07.23-20.44.41:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.07.23-20.44.41:531][  0]LogInit: Selected Device Profile: [HoloLens]
+[2021.07.23-20.44.41:531][  0]LogInit: Applying CVar settings loaded from the selected device profile: [HoloLens]
+[2021.07.23-20.44.41:531][  0]LogHAL: Display: Platform has ~ 3 GB [3138465792 / 4294967296 / 3], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.07.23-20.44.41:531][  0]LogInit: Going up to parent DeviceProfile [WindowsNoEditor]
+[2021.07.23-20.44.41:531][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2021.07.23-20.44.41:531][  0]LogInit: Going up to parent DeviceProfile []
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Scalability.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.07.23-20.44.41:531][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:\Data\Users\JohnSermarini@gmail.com\AppData\Local\Packages\FRED_v7rfbyxbfjgbe\LocalState/AR_Facades/Saved/Config/HoloLens/Engine.ini]
+[2021.07.23-20.44.41:531][  0]LogInit: Computer: GenericComputer
+[2021.07.23-20.44.41:531][  0]LogInit: User: GenericUser
+[2021.07.23-20.44.41:531][  0]LogInit: High frequency timer resolution =19.200000 MHz
+[2021.07.23-20.44.41:531][  0]LogMemory: Memory total: Physical=2.9GB (3GB approx) Virtual=131072.0GB
+[2021.07.23-20.44.41:531][  0]LogMemory: Platform Memory Stats for HoloLens
+[2021.07.23-20.44.41:531][  0]LogMemory: Process Physical Memory: 46.86 MB used, 46.99 MB peak
+[2021.07.23-20.44.41:531][  0]LogMemory: Process Virtual Memory: 0.00 MB used, 0.00 MB peak
+[2021.07.23-20.44.41:531][  0]LogMemory: Physical Memory: 63.71 MB used,  2929.37 MB free, 2993.07 MB total
+[2021.07.23-20.44.41:531][  0]LogMemory: Virtual Memory: 48.77 MB used,  134217680.00 MB free, 134217728.00 MB total
+[2021.07.23-20.44.41:531][  0]LogModuleManager: Warning: ModuleManager: Module 'HoloLensPlatformFeatures' not found - its StaticallyLinkedModuleInitializers function is null.
+[2021.07.23-20.44.41:541][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.07.23-20.44.41:541][  0]LogInit: Using OS detected language (en-US).
+[2021.07.23-20.44.41:541][  0]LogInit: Using OS detected locale (en-US).
+[2021.07.23-20.44.41:551][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.07.23-20.44.41:601][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.07.23-20.44.41:601][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.07.23-20.44.41:601][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.07.23-20.44.41:611][  0]LogD3D11RHI:     GPU DeviceId: 0x45373230 (for the marketing name, search the web for "GPU Device Id")
+[2021.07.23-20.44.41:611][  0]LogD3D11RHI:     Adapter Name: Qualcomm(R) Adreno(TM) 630 GPU
+[2021.07.23-20.44.41:611][  0]LogD3D11RHI:   Driver Version:  (internal:, unified:)
+[2021.07.23-20.44.41:611][  0]LogD3D11RHI:      Driver Date: 
+[2021.07.23-20.44.41:611][  0]LogRHI: Texture pool is 537 MB (70% of 768 MB)
+[2021.07.23-20.44.41:641][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.07.23-20.44.41:641][  0]LogD3D11RHI: Async texture creation enabled
+[2021.07.23-20.44.41:641][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.07.23-20.44.41:681][  0]LogD3D11RHI: GPU Timing Frequency: 19.200000 (Debug: 2 0)
+[2021.07.23-20.44.41:681][  0]LogShaderLibrary: Display: Using ../../../AR_Facades/Content/ShaderArchive-Global-PCD3D_ES31.ushaderbytecode for material shader code. Total 434 unique shaders.
+[2021.07.23-20.44.41:681][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2021.07.23-20.44.41:691][  0]LogTemp: Warning: Clearing the OS Cache
+[2021.07.23-20.44.41:691][  0]LogPakFile: New pak file ../../../AR_Facades/Content/Paks/AR_Facades-HoloLens.pak added to pak precacher.
+[2021.07.23-20.44.41:701][  0]LogSlate: Using FreeType 2.6.0
+[2021.07.23-20.44.41:701][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2021.07.23-20.44.41:911][  0]LogShaderLibrary: Display: Using ../../../AR_Facades/Content/ShaderArchive-AR_Facades-PCD3D_ES31.ushaderbytecode for material shader code. Total 2101 unique shaders.
+[2021.07.23-20.44.41:911][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library AR_Facades
+[2021.07.23-20.44.41:921][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2021.07.23-20.44.41:922][  0]LogRHI: Display: Failed to open default shader pipeline cache for AR_Facades using shader platform 14.
+[2021.07.23-20.44.41:922][  0]LogInit: Using OS detected language (en-US).
+[2021.07.23-20.44.41:922][  0]LogInit: Using OS detected locale (en-US).
+[2021.07.23-20.44.41:922][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2021.07.23-20.44.41:922][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2021.07.23-20.44.41:922][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.07.23-20.44.41:922][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.07.23-20.44.41:922][  0]LogTextLocalizationManager: Compacting localization data took   0.08ms
+[2021.07.23-20.44.42:031][  0]LogAssetRegistry: FAssetRegistry took 0.1116 seconds to start up
+[2021.07.23-20.44.42:331][  0]LogStreaming: Display: Flushing async loaders.
+[2021.07.23-20.44.42:331][  0]LogPackageLocalizationCache: Processed 21 localized package path(s) for 1 prioritized culture(s) in 0.000317 seconds
+[2021.07.23-20.44.42:351][  0]LogInit: Selected Device Profile: [HoloLens]
+[2021.07.23-20.44.42:383][  0]LogNetVersion: AR_Facades 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 756746678)
+[2021.07.23-20.44.42:901][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.23-20.44.42:901][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.23-20.44.42:981][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001B8711AD040), frame # 0
+[2021.07.23-20.44.42:991][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B871A9FDC0), frame # 0
+[2021.07.23-20.44.42:991][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B8718AEE00), frame # 0
+[2021.07.23-20.44.43:041][  0]LogMoviePlayer: Initializing movie player
+[2021.07.23-20.44.43:181][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.07.23-20.44.43:201][  0]LogUObjectArray: 14599 objects as part of root set at end of initial load.
+[2021.07.23-20.44.43:201][  0]LogUObjectArray: 5 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2021.07.23-20.44.43:201][  0]LogUObjectAllocator: 3041032 out of 0 bytes used by permanent object pool.
+[2021.07.23-20.44.43:201][  0]LogUObjectArray: CloseDisregardForGC: 14599/14599 objects in disregard for GC pool
+[2021.07.23-20.44.43:377][  0]LogLaunchHoloLens: Window Size Changed to [1280, 1080]
+[2021.07.23-20.44.43:521][  0]LogEngine: Initializing Engine...
+[2021.07.23-20.44.43:521][  0]LogHoloLensAR: HoloLens AR system has been initialized
+[2021.07.23-20.44.43:531][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2021.07.23-20.44.43:671][  0]LogPakFile: Precache HighWater 16MB
+
+[2021.07.23-20.44.43:671][  0]LogPakFile: Precache HighWater 32MB
+
+[2021.07.23-20.44.43:671][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.07.23-20.44.43:671][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.23-20.44.43:671][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.23-20.44.43:671][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.23-20.44.43:671][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.23-20.44.43:671][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.23-20.44.43:671][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.23-20.44.43:671][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.23-20.44.43:671][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.23-20.44.43:671][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.23-20.44.43:671][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.23-20.44.43:841][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.07.23-20.44.43:951][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.07.23-20.44.43:951][  0]LogAudioMixer: Display: Name: Speakers (Mixed Reality Audio Driver)
+[2021.07.23-20.44.43:951][  0]LogAudioMixer: Display: Is Default: No
+[2021.07.23-20.44.43:951][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2021.07.23-20.44.43:951][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2021.07.23-20.44.43:951][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2021.07.23-20.44.43:951][  0]LogAudioMixer: Display: Channel Order:
+[2021.07.23-20.44.43:951][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.23-20.44.43:951][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.07.23-20.44.43:991][  0]LogAudioMixer: Display: Using Audio Device Speakers (Mixed Reality Audio Driver)
+[2021.07.23-20.44.43:991][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.23-20.44.44:001][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.23-20.44.44:001][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.23-20.44.44:001][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.23-20.44.44:021][  0]LogInit: FAudioDevice initialized.
+[2021.07.23-20.44.44:041][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.07.23-20.44.44:041][  0]LogInit: Texture streaming: Enabled
+[2021.07.23-20.44.44:061][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.23-20.44.44:071][  0]LogInit: Display: Game Engine Initialized.
+[2021.07.23-20.44.44:081][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Runtime/SunPosition/Resources/SunPosition.png' error.
+[2021.07.23-20.44.44:081][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Runtime/SunPosition/Resources/SunPosition.png
+[2021.07.23-20.44.44:081][  0]LogInit: Display: Starting Game.
+[2021.07.23-20.44.44:081][  0]LogNet: Browse: /Game/Maps/AR?Name=Player
+[2021.07.23-20.44.44:081][  0]LogLoad: LoadMap: /Game/Maps/AR?Name=Player
+[2021.07.23-20.44.44:081][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.07.23-20.44.44:081][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.07.23-20.44.44:081][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.23-20.44.44:091][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.07.23-20.44.45:361][  0]LogStreaming: Error: Couldn't find file for package /Script/UXToolsInputSimulation requested by async loading code. NameToLoad: /Script/UXToolsInputSimulation
+[2021.07.23-20.44.45:361][  0]LogStreaming: Error: Found 1 dependent packages...
+[2021.07.23-20.44.45:361][  0]LogStreaming: Error:   /Game/Maps/AR
+[2021.07.23-20.44.49:761][  0]LogPakFile: Precache HighWater 48MB
+
+[2021.07.23-20.44.50:221][  0]LogAIModule: Creating AISystem for world AR
+[2021.07.23-20.44.50:222][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B8765C0A00), frame # 0
+[2021.07.23-20.44.50:222][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B80698E100), frame # 0
+[2021.07.23-20.44.50:231][  0]LogLoad: Game class is 'GameModeAR_C'
+[2021.07.23-20.44.50:631][  0]LogWorld: Bringing World /Game/Maps/AR.AR up for play (max tick rate 0) at 2021.07.23-13.44.50
+[2021.07.23-20.44.50:651][  0]LogWorld: Bringing up level for play took: 0.420778
+[2021.07.23-20.44.50:771][  0]LogUMG: Display: Widget Class WBP_PleaseScan_C - Loaded Fast Template.
+[2021.07.23-20.44.50:801][  0]LogUMG: Display: Widget Class WBP_Legend_C - Loaded Fast Template.
+[2021.07.23-20.44.50:801][  0]LogUMG: Display: Widget Class WBP_QRProgress_C - Loaded Fast Template.
+[2021.07.23-20.44.50:891][  0]LogBlueprintUserMessages: [BP_SimController_2] =========
+INIT start
+=========
+[2021.07.23-20.44.51:151][  0]LogBlueprintUserMessages: [BP_SimController_2] RESETTING SCAN
+[2021.07.23-20.44.51:411][  0]LogBlueprintUserMessages: [BP_SimController_2] RESETTING SCAN
+[2021.07.23-20.44.51:641][  0]LogScript: Warning: Accessed None trying to read property CompassMesh
+	BP_SunPosition_C /Game/Maps/AR.AR:PersistentLevel.BP_SunPosition_2
+	Function /SunPosition/BP_SunPosition.BP_SunPosition_C:UpdateSun:02E8
+[2021.07.23-20.44.51:641][  0]LogScript: Warning: Script call stack:
+	Function /Game/BP_SimController.BP_SimController_C:ReceiveBeginPlay
+	Function /Game/BP_SimController.BP_SimController_C:ExecuteUbergraph_BP_SimController
+	Function /Game/BP_SimController.BP_SimController_C:SetRoom
+	Function /SunPosition/BP_SunPosition.BP_SunPosition_C:UpdateSun
+
+[2021.07.23-20.44.51:731][  0]LogScript: Warning: Accessed None trying to read property CompassMesh
+	BP_SunPosition_C /Game/Maps/AR.AR:PersistentLevel.BP_SunPosition_2
+	Function /SunPosition/BP_SunPosition.BP_SunPosition_C:UpdateSun:02E8
+[2021.07.23-20.44.51:731][  0]LogScript: Warning: Script call stack:
+	Function /Game/BP_SimController.BP_SimController_C:ReceiveBeginPlay
+	Function /Game/BP_SimController.BP_SimController_C:ExecuteUbergraph_BP_SimController
+	Function /Game/BP_SimController.BP_SimController_C:SetRoom
+	Function /Game/BP_SimController.BP_SimController_C:SetTime
+	Function /SunPosition/BP_SunPosition.BP_SunPosition_C:UpdateSun
+
+[2021.07.23-20.44.51:741][  0]LogScript: Warning: Accessed None trying to read property CompassMesh
+	BP_SunPosition_C /Game/Maps/AR.AR:PersistentLevel.BP_SunPosition_2
+	Function /SunPosition/BP_SunPosition.BP_SunPosition_C:UpdateSun:02E8
+[2021.07.23-20.44.51:741][  0]LogScript: Warning: Script call stack:
+	Function /Game/BP_SimController.BP_SimController_C:ReceiveBeginPlay
+	Function /Game/BP_SimController.BP_SimController_C:ExecuteUbergraph_BP_SimController
+	Function /Game/BP_SimController.BP_SimController_C:SetTime
+	Function /SunPosition/BP_SunPosition.BP_SunPosition_C:UpdateSun
+
+[2021.07.23-20.44.51:991][  0]LogBlueprintUserMessages: [BP_SimController_2] RESETTING SCAN
+[2021.07.23-20.44.51:991][  0]LogBlueprintUserMessages: [BP_SimController_2] =========
+INIT end
+=========
+[2021.07.23-20.44.51:991][  0]r.Shadow.RadiusThreshold = "0.01"
+[2021.07.23-20.44.52:001][  0]LogHoloLensAR: OnTrackingChanged(0)
+[2021.07.23-20.44.52:061][  0]LogHoloLensAR: HoloLens AR session started
+[2021.07.23-20.44.52:061][  0]LogLoad: Took 7.979090 seconds to LoadMap(/Game/Maps/AR)
+[2021.07.23-20.44.55:931][  0]LogSlate: Took 0.000700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.07.23-20.44.55:931][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2021.07.23-20.44.55:931][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2021.07.23-20.44.55:931][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2021.07.23-20.44.55:931][  0]LogLaunchHoloLens: Window Size Changed to [1280, 1080]
+[2021.07.23-20.44.56:031][  0]LogRenderer: Reallocating scene render targets to support 1280x1080 Format 2 NumSamples 1 (Frame:1).
+[2021.07.23-20.44.56:061][  0]LogHoloLensAR: Interop: StartQRCodeObserver() success!
+[2021.07.23-20.44.56:091][  0]LogWmrHmd: Connection State Unknown - See log for any errors
+[2021.07.23-20.44.56:131][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.07.23-20.44.56:142][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.23-20.44.56:181][  0]LogSlate: Slate font cache was flushed
+[2021.07.23-20.44.56:371][  1]LogSlate: Took 0.000558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.07.23-20.44.56:391][  2]LogRenderer: Warning: Resizing VR buffer to 1440 by 936
+[2021.07.23-20.44.56:391][  2]LogRenderer: Reallocating scene render targets to support 1440x936 Format 2 NumSamples 1 (Frame:3).
+[2021.07.23-20.44.56:391][  2]LogLaunchHoloLens: Window Size Changed to [2160, 1404]
+[2021.07.23-20.44.56:427][  2]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.07.23-20.44.56:444][  2]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+0.373997
+--------------------
+Head_Position:
+X=0.000 Y=120.000 Z=112.001
+Head_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=10.127 Y=0.444 Z=6.916
+Gaze_Direction:
+X=0.996 Y=0.058 Z=-0.074
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.56:631][  9]LogSlate: Took 0.000594 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2021.07.23-20.44.56:692][ 11]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+0.628648
+--------------------
+Head_Position:
+X=9.659 Y=119.905 Z=119.018
+Head_Rotation:
+P=-7.007487 Y=-0.433120 R=0.658506
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=10.464 Y=-0.539 Z=6.907
+Gaze_Direction:
+X=0.995 Y=0.062 Z=-0.079
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.56:961][ 22]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+0.895771
+--------------------
+Head_Position:
+X=9.911 Y=119.739 Z=118.980
+Head_Rotation:
+P=-7.361161 Y=-0.436484 R=0.673921
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=10.674 Y=-0.097 Z=6.838
+Gaze_Direction:
+X=0.995 Y=0.063 Z=-0.080
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.57:221][ 34]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+1.159358
+--------------------
+Head_Position:
+X=9.941 Y=119.553 Z=118.914
+Head_Rotation:
+P=-7.803108 Y=-0.635977 R=0.368141
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=10.707 Y=-0.512 Z=6.807
+Gaze_Direction:
+X=0.995 Y=-0.078 Z=-0.068
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.57:491][ 45]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+1.423823
+--------------------
+Head_Position:
+X=9.841 Y=119.430 Z=118.853
+Head_Rotation:
+P=-8.571464 Y=-0.738148 R=0.220205
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=10.661 Y=-1.063 Z=6.720
+Gaze_Direction:
+X=0.994 Y=-0.072 Z=-0.082
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.57:741][ 57]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+1.67652
+--------------------
+Head_Position:
+X=9.743 Y=119.314 Z=118.793
+Head_Rotation:
+P=-8.840552 Y=-0.809136 R=0.300495
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=10.538 Y=-1.334 Z=6.673
+Gaze_Direction:
+X=0.994 Y=-0.072 Z=-0.085
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.58:002][ 70]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+1.939751
+--------------------
+Head_Position:
+X=9.445 Y=119.286 Z=118.860
+Head_Rotation:
+P=-8.423624 Y=-0.767539 R=0.181187
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=10.255 Y=-1.266 Z=6.746
+Gaze_Direction:
+X=0.994 Y=-0.069 Z=-0.083
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.58:262][ 82]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+2.201105
+--------------------
+Head_Position:
+X=9.047 Y=119.386 Z=119.159
+Head_Rotation:
+P=-6.069135 Y=-0.698823 R=0.019790
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=9.837 Y=-1.083 Z=7.062
+Gaze_Direction:
+X=0.995 Y=-0.079 Z=-0.062
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.58:522][ 94]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+2.461312
+--------------------
+Head_Position:
+X=8.372 Y=119.502 Z=119.689
+Head_Rotation:
+P=-2.316581 Y=-1.029210 R=0.134426
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=9.196 Y=-0.828 Z=7.597
+Gaze_Direction:
+X=0.996 Y=-0.081 Z=-0.032
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.58:786][106]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+2.719262
+--------------------
+Head_Position:
+X=7.226 Y=119.317 Z=120.439
+Head_Rotation:
+P=4.623061 Y=-2.376940 R=-1.668564
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=7.994 Y=-0.306 Z=8.617
+Gaze_Direction:
+X=0.966 Y=0.054 Z=0.254
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.59:051][118]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+2.984535
+--------------------
+Head_Position:
+X=6.028 Y=119.125 Z=120.993
+Head_Rotation:
+P=9.000147 Y=-2.593680 R=-2.407414
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=6.826 Y=-0.713 Z=9.124
+Gaze_Direction:
+X=0.973 Y=0.037 Z=0.229
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.59:301][131]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+3.241739
+--------------------
+Head_Position:
+X=4.727 Y=119.021 Z=121.525
+Head_Rotation:
+P=14.280107 Y=-2.379179 R=-2.661830
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=5.465 Y=-0.772 Z=9.798
+Gaze_Direction:
+X=0.909 Y=0.015 Z=0.417
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.59:561][144]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+3.49893
+--------------------
+Head_Position:
+X=3.247 Y=119.059 Z=122.009
+Head_Rotation:
+P=19.275223 Y=-2.348208 R=-3.273594
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=3.943 Y=-0.644 Z=10.355
+Gaze_Direction:
+X=0.869 Y=0.015 Z=0.495
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.44.59:822][157]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+3.754446
+--------------------
+Head_Position:
+X=1.814 Y=119.239 Z=122.592
+Head_Rotation:
+P=25.509676 Y=-2.442211 R=-3.621738
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=2.543 Y=-0.581 Z=10.984
+Gaze_Direction:
+X=0.825 Y=0.016 Z=0.565
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.00:074][170]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+4.00983
+--------------------
+Head_Position:
+X=0.730 Y=119.282 Z=123.051
+Head_Rotation:
+P=32.709305 Y=-3.185048 R=-4.466259
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=1.258 Y=-0.534 Z=11.522
+Gaze_Direction:
+X=0.726 Y=0.008 Z=0.688
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.00:331][183]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+4.264201
+--------------------
+Head_Position:
+X=-0.444 Y=119.202 Z=123.366
+Head_Rotation:
+P=38.797852 Y=-3.909387 R=-5.180202
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=0.144 Y=-1.246 Z=11.929
+Gaze_Direction:
+X=0.674 Y=0.017 Z=0.738
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.00:581][196]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+4.518557
+--------------------
+Head_Position:
+X=-2.451 Y=119.362 Z=123.376
+Head_Rotation:
+P=44.055515 Y=-4.457649 R=-5.522354
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=-1.749 Y=-0.483 Z=12.008
+Gaze_Direction:
+X=0.608 Y=0.016 Z=0.794
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.00:841][209]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+4.774427
+--------------------
+Head_Position:
+X=-4.501 Y=119.369 Z=123.092
+Head_Rotation:
+P=50.241333 Y=-3.703017 R=-5.918564
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=-3.867 Y=-0.624 Z=11.866
+Gaze_Direction:
+X=0.506 Y=0.012 Z=0.862
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.01:091][223]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+5.02846
+--------------------
+Head_Position:
+X=-6.640 Y=119.160 Z=122.786
+Head_Rotation:
+P=54.310883 Y=-3.943466 R=-6.708939
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=-5.922 Y=-0.702 Z=11.631
+Gaze_Direction:
+X=0.499 Y=0.004 Z=0.866
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.01:342][236]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+5.280612
+--------------------
+Head_Position:
+X=-7.834 Y=119.122 Z=122.438
+Head_Rotation:
+P=57.119587 Y=-4.254231 R=-6.394383
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=-7.065 Y=-0.679 Z=11.345
+Gaze_Direction:
+X=0.459 Y=0.010 Z=0.888
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.01:601][249]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+5.540433
+--------------------
+Head_Position:
+X=-7.767 Y=119.028 Z=122.310
+Head_Rotation:
+P=57.698483 Y=-4.861384 R=-6.370622
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=-6.943 Y=-0.677 Z=11.276
+Gaze_Direction:
+X=0.476 Y=0.006 Z=0.879
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.01:876][263]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+5.810878
+--------------------
+Head_Position:
+X=-6.310 Y=118.991 Z=122.666
+Head_Rotation:
+P=55.571037 Y=-4.466692 R=-5.914771
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=-5.426 Y=-0.499 Z=11.603
+Gaze_Direction:
+X=0.492 Y=0.007 Z=0.871
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.02:131][277]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+6.073044
+--------------------
+Head_Position:
+X=-4.484 Y=119.097 Z=122.930
+Head_Rotation:
+P=51.897339 Y=-4.191762 R=-5.367603
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=-3.499 Y=-0.960 Z=11.726
+Gaze_Direction:
+X=0.641 Y=-0.049 Z=0.766
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.02:391][290]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+6.331457
+--------------------
+Head_Position:
+X=-3.013 Y=119.280 Z=123.062
+Head_Rotation:
+P=47.651436 Y=-3.145221 R=-4.675417
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=-1.966 Y=-0.838 Z=11.822
+Gaze_Direction:
+X=0.639 Y=-0.048 Z=0.767
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.02:666][304]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+6.601997
+--------------------
+Head_Position:
+X=-0.655 Y=119.335 Z=123.146
+Head_Rotation:
+P=42.496635 Y=-2.971809 R=-4.178400
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+false
+Gaze_Origin:
+X=0.000 Y=0.000 Z=0.000
+Gaze_Direction:
+X=0.000 Y=0.000 Z=0.000
+Gaze_Confidence:
+0.0
+====================
+[2021.07.23-20.45.02:923][318]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+6.861753
+--------------------
+Head_Position:
+X=1.740 Y=119.047 Z=123.187
+Head_Rotation:
+P=36.879894 Y=-3.645337 R=-4.348680
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=2.896 Y=-1.103 Z=11.602
+Gaze_Direction:
+X=0.899 Y=0.062 Z=0.433
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.03:191][332]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+7.128316
+--------------------
+Head_Position:
+X=4.743 Y=118.810 Z=122.955
+Head_Rotation:
+P=29.633709 Y=-3.369771 R=-4.367208
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=5.873 Y=-1.073 Z=11.265
+Gaze_Direction:
+X=0.910 Y=0.060 Z=0.409
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.03:461][346]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+7.402361
+--------------------
+Head_Position:
+X=7.971 Y=118.381 Z=122.283
+Head_Rotation:
+P=22.657976 Y=-2.886154 R=-5.106086
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=9.082 Y=-1.883 Z=10.394
+Gaze_Direction:
+X=0.976 Y=-0.023 Z=0.215
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.03:732][358]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+7.669056
+--------------------
+Head_Position:
+X=10.559 Y=118.212 Z=121.440
+Head_Rotation:
+P=15.070969 Y=-2.540748 R=-5.099700
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=11.634 Y=-1.045 Z=9.549
+Gaze_Direction:
+X=0.978 Y=-0.024 Z=0.209
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.03:991][371]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+7.924466
+--------------------
+Head_Position:
+X=12.021 Y=118.247 Z=120.938
+Head_Rotation:
+P=11.059913 Y=-2.890229 R=-4.550923
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=12.997 Y=-1.913 Z=8.978
+Gaze_Direction:
+X=0.980 Y=-0.025 Z=0.199
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.04:251][385]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+8.192044
+--------------------
+Head_Position:
+X=13.146 Y=118.081 Z=120.293
+Head_Rotation:
+P=5.740043 Y=-2.705438 R=-5.152658
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.076 Y=-2.168 Z=8.275
+Gaze_Direction:
+X=0.989 Y=-0.020 Z=0.148
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.04:527][398]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+8.462478
+--------------------
+Head_Position:
+X=13.510 Y=118.226 Z=119.832
+Head_Rotation:
+P=1.662775 Y=-2.405481 R=-4.339028
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.446 Y=-1.807 Z=7.782
+Gaze_Direction:
+X=0.995 Y=-0.035 Z=0.092
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.04:801][412]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+8.735577
+--------------------
+Head_Position:
+X=13.255 Y=118.385 Z=118.800
+Head_Rotation:
+P=-5.106140 Y=-3.039881 R=-2.625851
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.168 Y=-1.354 Z=6.591
+Gaze_Direction:
+X=0.988 Y=-0.009 Z=-0.152
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.05:051][425]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+8.991828
+--------------------
+Head_Position:
+X=12.859 Y=118.400 Z=118.095
+Head_Rotation:
+P=-10.882034 Y=-2.633465 R=-2.309206
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=13.768 Y=-1.374 Z=5.836
+Gaze_Direction:
+X=0.986 Y=-0.003 Z=-0.166
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.05:321][439]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+9.25654
+--------------------
+Head_Position:
+X=12.703 Y=118.246 Z=117.390
+Head_Rotation:
+P=-16.322580 Y=-2.576695 R=-2.053466
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=13.539 Y=-1.792 Z=5.028
+Gaze_Direction:
+X=0.932 Y=-0.020 Z=-0.362
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.05:581][452]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+9.513505
+--------------------
+Head_Position:
+X=13.232 Y=117.907 Z=116.568
+Head_Rotation:
+P=-21.562038 Y=-3.714801 R=-1.408730
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.082 Y=-1.814 Z=4.076
+Gaze_Direction:
+X=0.908 Y=-0.025 Z=-0.419
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.05:851][466]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+9.786057
+--------------------
+Head_Position:
+X=14.498 Y=117.618 Z=114.843
+Head_Rotation:
+P=-29.656303 Y=-4.675563 R=-0.298059
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=15.194 Y=-2.251 Z=2.337
+Gaze_Direction:
+X=0.781 Y=-0.014 Z=-0.624
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.06:102][479]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+10.041791
+--------------------
+Head_Position:
+X=15.034 Y=117.425 Z=113.425
+Head_Rotation:
+P=-38.450417 Y=-4.808109 R=0.110941
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=15.741 Y=-2.311 Z=0.765
+Gaze_Direction:
+X=0.758 Y=-0.016 Z=-0.652
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.06:372][493]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+10.306281
+--------------------
+Head_Position:
+X=14.803 Y=117.380 Z=112.016
+Head_Rotation:
+P=-46.938885 Y=-4.926731 R=0.856321
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=15.324 Y=-2.284 Z=-0.732
+Gaze_Direction:
+X=0.546 Y=-0.008 Z=-0.838
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.06:629][506]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+10.562498
+--------------------
+Head_Position:
+X=14.608 Y=117.499 Z=110.765
+Head_Rotation:
+P=-54.129471 Y=-4.952240 R=2.415702
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=15.097 Y=-2.346 Z=-2.072
+Gaze_Direction:
+X=0.518 Y=-0.015 Z=-0.855
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.06:881][519]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+10.813825
+--------------------
+Head_Position:
+X=14.319 Y=117.604 Z=109.237
+Head_Rotation:
+P=-62.296711 Y=-5.561734 R=4.931591
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.625 Y=-2.530 Z=-3.580
+Gaze_Direction:
+X=0.291 Y=-0.043 Z=-0.956
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.07:142][533]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+11.07935
+--------------------
+Head_Position:
+X=14.357 Y=117.820 Z=107.459
+Head_Rotation:
+P=-68.370323 Y=-5.343299 R=6.118152
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.623 Y=-2.204 Z=-5.356
+Gaze_Direction:
+X=0.281 Y=-0.043 Z=-0.959
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.07:393][546]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+11.332598
+--------------------
+Head_Position:
+X=14.476 Y=117.972 Z=105.516
+Head_Rotation:
+P=-74.606712 Y=-8.424497 R=10.180593
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.691 Y=-2.324 Z=-7.204
+Gaze_Direction:
+X=0.271 Y=-0.046 Z=-0.961
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.07:652][558]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+11.585025
+--------------------
+Head_Position:
+X=14.596 Y=118.089 Z=103.105
+Head_Rotation:
+P=-82.171448 Y=-17.845127 R=20.009809
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.661 Y=-1.916 Z=-9.873
+Gaze_Direction:
+X=0.094 Y=-0.004 Z=-0.996
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.07:902][571]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+11.843235
+--------------------
+Head_Position:
+X=14.304 Y=117.895 Z=100.564
+Head_Rotation:
+P=-87.189781 Y=-104.855957 R=106.633011
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.362 Y=-2.162 Z=-12.260
+Gaze_Direction:
+X=0.043 Y=-0.009 Z=-0.999
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.08:162][584]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+12.095339
+--------------------
+Head_Position:
+X=14.030 Y=117.643 Z=98.781
+Head_Rotation:
+P=-83.580139 Y=-151.450241 R=153.570053
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.151 Y=-2.468 Z=-14.036
+Gaze_Direction:
+X=0.055 Y=-0.010 Z=-0.998
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.08:418][597]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+12.352199
+--------------------
+Head_Position:
+X=14.010 Y=117.536 Z=99.168
+Head_Rotation:
+P=-84.777519 Y=-145.748596 R=147.584930
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.284 Y=-2.422 Z=-13.582
+Gaze_Direction:
+X=0.087 Y=-0.014 Z=-0.996
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.08:662][610]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+12.602857
+--------------------
+Head_Position:
+X=14.961 Y=117.669 Z=101.928
+Head_Rotation:
+P=-84.552834 Y=-23.788616 R=24.966578
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=15.160 Y=-2.259 Z=-10.829
+Gaze_Direction:
+X=0.128 Y=-0.014 Z=-0.992
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.08:922][623]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+12.860478
+--------------------
+Head_Position:
+X=15.041 Y=117.925 Z=104.520
+Head_Rotation:
+P=-75.068642 Y=-7.226592 R=8.623715
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=15.424 Y=-1.665 Z=-7.992
+Gaze_Direction:
+X=0.158 Y=-0.018 Z=-0.987
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.09:181][637]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+13.120871
+--------------------
+Head_Position:
+X=15.152 Y=118.013 Z=108.062
+Head_Rotation:
+P=-63.112816 Y=-1.332111 R=2.072835
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=15.743 Y=-2.019 Z=-4.440
+Gaze_Direction:
+X=0.593 Y=0.014 Z=-0.805
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.09:443][650]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+13.380542
+--------------------
+Head_Position:
+X=14.593 Y=117.908 Z=110.318
+Head_Rotation:
+P=-53.486584 Y=0.641717 R=-0.286833
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=15.184 Y=-1.975 Z=-2.116
+Gaze_Direction:
+X=0.599 Y=0.020 Z=-0.801
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.09:702][664]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+13.642756
+--------------------
+Head_Position:
+X=13.898 Y=117.761 Z=112.272
+Head_Rotation:
+P=-44.896278 Y=2.493595 R=-2.106883
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=14.552 Y=-2.129 Z=-0.114
+Gaze_Direction:
+X=0.664 Y=0.023 Z=-0.747
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.09:962][677]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+13.8967
+--------------------
+Head_Position:
+X=12.670 Y=117.464 Z=114.114
+Head_Rotation:
+P=-36.575691 Y=2.291829 R=-2.712448
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=13.348 Y=-2.486 Z=1.814
+Gaze_Direction:
+X=0.733 Y=0.022 Z=-0.680
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.10:236][691]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+14.168257
+--------------------
+Head_Position:
+X=11.139 Y=117.301 Z=115.794
+Head_Rotation:
+P=-27.931339 Y=2.011021 R=-2.497433
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=11.855 Y=-2.764 Z=3.469
+Gaze_Direction:
+X=0.813 Y=0.023 Z=-0.581
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.10:492][704]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+14.426842
+--------------------
+Head_Position:
+X=9.826 Y=116.966 Z=117.079
+Head_Rotation:
+P=-20.396727 Y=1.436755 R=-2.492240
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=10.583 Y=-3.280 Z=4.828
+Gaze_Direction:
+X=0.880 Y=0.020 Z=-0.475
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.10:757][718]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+14.691067
+--------------------
+Head_Position:
+X=8.785 Y=116.613 Z=118.219
+Head_Rotation:
+P=-14.256072 Y=0.746538 R=-2.995894
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=9.636 Y=-3.323 Z=5.879
+Gaze_Direction:
+X=0.924 Y=0.020 Z=-0.381
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.11:011][731]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+14.946344
+--------------------
+Head_Position:
+X=7.721 Y=116.494 Z=119.132
+Head_Rotation:
+P=-8.923846 Y=0.204457 R=-2.890658
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=8.570 Y=-3.282 Z=6.846
+Gaze_Direction:
+X=0.952 Y=0.012 Z=-0.306
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.11:281][744]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+15.2194
+--------------------
+Head_Position:
+X=6.110 Y=116.630 Z=119.948
+Head_Rotation:
+P=-2.811142 Y=0.828341 R=-2.972571
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=7.011 Y=-3.921 Z=7.791
+Gaze_Direction:
+X=0.989 Y=0.006 Z=-0.151
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.11:556][758]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+15.491064
+--------------------
+Head_Position:
+X=3.756 Y=116.955 Z=120.175
+Head_Rotation:
+P=-0.800566 Y=-0.000779 R=-2.656112
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=4.774 Y=-3.389 Z=8.018
+Gaze_Direction:
+X=0.992 Y=-0.017 Z=-0.128
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.11:812][770]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+15.751069
+--------------------
+Head_Position:
+X=1.552 Y=116.812 Z=120.155
+Head_Rotation:
+P=-0.760391 Y=-1.249126 R=-1.509645
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=2.501 Y=-3.734 Z=7.980
+Gaze_Direction:
+X=0.993 Y=-0.011 Z=-0.116
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.12:081][780]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+16.014179
+--------------------
+Head_Position:
+X=0.491 Y=116.698 Z=120.415
+Head_Rotation:
+P=1.120110 Y=-0.903926 R=-1.306217
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=1.393 Y=-3.269 Z=8.249
+Gaze_Direction:
+X=0.995 Y=0.008 Z=-0.099
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.12:331][788]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+16.271963
+--------------------
+Head_Position:
+X=0.739 Y=116.932 Z=120.285
+Head_Rotation:
+P=0.191327 Y=0.373189 R=-1.159018
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=1.711 Y=-3.170 Z=8.123
+Gaze_Direction:
+X=0.993 Y=0.015 Z=-0.116
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.12:612][791]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+16.545992
+--------------------
+Head_Position:
+X=1.024 Y=116.948 Z=120.254
+Head_Rotation:
+P=-0.378488 Y=0.497880 R=-1.166443
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=2.649 Y=-2.879 Z=7.917
+Gaze_Direction:
+X=0.992 Y=0.015 Z=-0.122
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.12:871][802]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+16.810257
+--------------------
+Head_Position:
+X=2.502 Y=116.779 Z=120.145
+Head_Rotation:
+P=-1.271453 Y=-0.348349 R=-0.726380
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=3.319 Y=-3.537 Z=8.000
+Gaze_Direction:
+X=0.999 Y=-0.028 Z=-0.031
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.13:126][812]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+17.060884
+--------------------
+Head_Position:
+X=3.196 Y=116.402 Z=120.181
+Head_Rotation:
+P=-1.514116 Y=-2.085743 R=-0.498619
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=4.062 Y=-3.935 Z=8.106
+Gaze_Direction:
+X=0.998 Y=-0.045 Z=0.033
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.13:385][823]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+17.320658
+--------------------
+Head_Position:
+X=3.825 Y=115.920 Z=120.468
+Head_Rotation:
+P=-0.421976 Y=-3.767628 R=-1.322005
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=4.719 Y=-4.193 Z=8.319
+Gaze_Direction:
+X=0.999 Y=-0.038 Z=0.028
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.13:652][834]LogBlueprintUserMessages: [BP_DataCollector_2] 
+====================
+Head
+Current:
+17.585133
+--------------------
+Head_Position:
+X=4.623 Y=115.865 Z=120.120
+Head_Rotation:
+P=-3.253902 Y=-3.206483 R=-1.435476
+Facade_Position:
+X=0.000 Y=0.000 Z=0.000
+Facade_Rotation:
+P=0.000000 Y=0.000000 R=0.000000
+Gaze_Valid:
+true
+Gaze_Origin:
+X=5.533 Y=-4.138 Z=8.058
+Gaze_Direction:
+X=0.999 Y=-0.028 Z=0.021
+Gaze_Confidence:
+1.0
+====================
+[2021.07.23-20.45.13:682][835]LogCore: Display: AppLifetime: Application will enter background
+[2021.07.23-20.45.13:712][836]LogCore: Display: AppLifetime: Application will deactivate

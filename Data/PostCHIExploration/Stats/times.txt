@@ -1,0 +1,214 @@
+
+> # AR - Office
+> usability_wilcoxin_individual("AR", "Office", "Optimal.Time.Ratio")
+[1] "===== Wilcoxin ~ Room: Office ~ Condition: AR ~ Metric: Optimal.Time.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  optimal_subjects[[metric]] and poor_subjects[[metric]]
+W = 217, p-value = 0.0005864
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.154642 0.283369
+sample estimates:
+difference in location 
+              0.223801 
+
+
+Cohen's d
+
+d estimate: 1.186725 (large)
+95 percent confidence interval:
+   lower    upper 
+0.398426 1.975024 
+
+
+> #t_test_individual("AR", "Office", "Optimal.Time.Ratio")
+> print_basic_split_stats("Office", "AR", "Optimal.Time.Ratio")
+[1] "===== Basic Stats (High Performers) ~ Room: Office ~ Condition: AR ~ Metric: Optimal.Time.Ratio ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+ 18.00000000   0.00000000   0.00000000   0.07554284   0.78255077   0.70700792   9.99305278   0.58841422   0.55516960   0.04343540 
+CI.mean.0.95          var      std.dev     coef.var 
+  0.09164069   0.03395942   0.18428081   0.33193606 
+[1] "===== Basic Stats (Low Performers) ~ Room: Office ~ Condition: AR ~ Metric: Optimal.Time.Ratio ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+14.000000000  0.000000000  0.000000000  0.279083251  0.540225462  0.261142211  5.324895102  0.367513752  0.380349650  0.020126407 
+CI.mean.0.95          var      std.dev     coef.var 
+ 0.043480459  0.005671012  0.075306119  0.197991819 
+
+> print(shapiro.test(subset(subjects_data, Condition=="AR" & Room=="Office" & Optimal==TRUE)$Optimal.Time.Ratio))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "AR" & Room == "Office" & Optimal == TRUE)$Optimal.Time.Ratio
+W = 0.78801, p-value = 0.001033
+
+
+> print(shapiro.test(subset(subjects_data, Condition=="AR" & Room=="Office" & Optimal==FALSE)$Optimal.Time.Ratio))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "AR" & Room == "Office" & Optimal == FALSE)$Optimal.Time.Ratio
+W = 0.91089, p-value = 0.1623
+
+
+> # AR - Conference
+> usability_wilcoxin_individual("AR", "Conference", "Optimal.Time.Ratio")
+[1] "===== Wilcoxin ~ Room: Conference ~ Condition: AR ~ Metric: Optimal.Time.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  optimal_subjects[[metric]] and poor_subjects[[metric]]
+W = 184, p-value = 0.03646
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.005458061 0.167980913
+sample estimates:
+difference in location 
+            0.08641132 
+
+
+Cohen's d
+
+d estimate: 0.8962255 (large)
+95 percent confidence interval:
+    lower     upper 
+0.1387921 1.6536590 
+
+
+> #t_test_individual("AR", "Conference", "Optimal.Time.Ratio")
+> print_basic_split_stats("Conference", "AR", "Optimal.Time.Ratio")
+[1] "===== Basic Stats (High Performers) ~ Room: Conference ~ Condition: AR ~ Metric: Optimal.Time.Ratio ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+ 16.00000000   0.00000000   0.00000000   0.36868337   0.69977321   0.33108985   8.54087362   0.52370926   0.53380460   0.02596213 
+CI.mean.0.95          var      std.dev     coef.var 
+  0.05533698   0.01078452   0.10384853   0.19454409 
+[1] "===== Basic Stats (Low Performers) ~ Room: Conference ~ Condition: AR ~ Metric: Optimal.Time.Ratio ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+ 16.00000000   0.00000000   0.00000000   0.24525495   0.61319496   0.36794001   7.05366729   0.46407790   0.44085421   0.02589441 
+CI.mean.0.95          var      std.dev     coef.var 
+  0.05519263   0.01072833   0.10357764   0.23494761 
+
+> print(shapiro.test(subset(subjects_data, Condition=="AR" & Room=="Conference" & Optimal==TRUE)$Optimal.Time.Ratio))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "AR" & Room == "Conference" & Optimal == TRUE)$Optimal.Time.Ratio
+W = 0.9638, p-value = 0.7308
+
+
+> print(shapiro.test(subset(subjects_data, Condition=="AR" & Room=="Conference" & Optimal==FALSE)$Optimal.Time.Ratio))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "AR" & Room == "Conference" & Optimal == FALSE)$Optimal.Time.Ratio
+W = 0.93613, p-value = 0.3042
+
+
+> # Desktop - Office
+> usability_wilcoxin_individual("Desktop", "Office", "Optimal.Time.Ratio")
+[1] "===== Wilcoxin ~ Room: Office ~ Condition: Desktop ~ Metric: Optimal.Time.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  optimal_subjects[[metric]] and poor_subjects[[metric]]
+W = 227.5, p-value = 7.139e-05
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.1082884 0.2586754
+sample estimates:
+difference in location 
+             0.1821295 
+
+
+Cohen's d
+
+d estimate: 1.867219 (large)
+95 percent confidence interval:
+   lower    upper 
+0.991107 2.743331 
+
+
+> #t_test_individual("Desktop", "Office", "Optimal.Time.Ratio")
+> print_basic_split_stats("Office", "Desktop", "Optimal.Time.Ratio")
+[1] "===== Basic Stats (High Performers) ~ Room: Office ~ Condition: Desktop ~ Metric: Optimal.Time.Ratio ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+13.000000000  0.000000000  0.000000000  0.420260681  0.671108292  0.250847611  7.251000063  0.539530355  0.557769236  0.024246661 
+CI.mean.0.95          var      std.dev     coef.var 
+ 0.052828937  0.007642708  0.087422581  0.156736111 
+[1] "===== Basic Stats (Low Performers) ~ Room: Office ~ Condition: Desktop ~ Metric: Optimal.Time.Ratio ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+ 19.00000000   0.00000000   0.00000000   0.12919471   0.54952186   0.42032715   7.06983552   0.38463192   0.37209661   0.02447850 
+CI.mean.0.95          var      std.dev     coef.var 
+  0.05142742   0.01138474   0.10669931   0.28675164 
+
+> print(shapiro.test(subset(subjects_data, Condition=="Desktop" & Room=="Office" & Optimal==TRUE)$Optimal.Time.Ratio))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "Desktop" & Room == "Office" & Optimal == TRUE)$Optimal.Time.Ratio
+W = 0.93115, p-value = 0.3528
+
+
+> print(shapiro.test(subset(subjects_data, Condition=="Desktop" & Room=="Office" & Optimal==FALSE)$Optimal.Time.Ratio))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "Desktop" & Room == "Office" & Optimal == FALSE)$Optimal.Time.Ratio
+W = 0.97945, p-value = 0.9358
+
+
+> # Desktop - Conference
+> usability_wilcoxin_individual("Desktop", "Conference", "Optimal.Time.Ratio")
+[1] "===== Wilcoxin ~ Room: Conference ~ Condition: Desktop ~ Metric: Optimal.Time.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  optimal_subjects[[metric]] and poor_subjects[[metric]]
+W = 238, p-value = 2.28e-05
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.1462476 0.3044870
+sample estimates:
+difference in location 
+             0.2345933 
+
+
+Cohen's d
+
+d estimate: 2.165591 (large)
+95 percent confidence interval:
+   lower    upper 
+1.251661 3.079521 
+
+
+> #t_test_individual("Desktop", "Conference", "Optimal.Time.Ratio")
+> print_basic_split_stats("Conference", "Desktop", "Optimal.Time.Ratio")
+[1] "===== Basic Stats (High Performers) ~ Room: Conference ~ Condition: Desktop ~ Metric: Optimal.Time.Ratio ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+ 14.00000000   0.00000000   0.00000000   0.43023138   0.77667198   0.34644060   8.32448635   0.59420845   0.59460617   0.02715662 
+CI.mean.0.95          var      std.dev     coef.var 
+  0.05866831   0.01032475   0.10161076   0.17088750 
+[1] "===== Basic Stats (Low Performers) ~ Room: Conference ~ Condition: Desktop ~ Metric: Optimal.Time.Ratio ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+ 18.00000000   0.00000000   0.00000000   0.17121450   0.57762046   0.40640596   6.60594070   0.37457592   0.36699671   0.02538434 
+CI.mean.0.95          var      std.dev     coef.var 
+  0.05355627   0.01159856   0.10769663   0.29345393 
+
+> print(shapiro.test(subset(subjects_data, Condition=="Desktop" & Room=="Conference" & Optimal==TRUE)$Optimal.Time.Ratio))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "Desktop" & Room == "Conference" & Optimal == TRUE)$Optimal.Time.Ratio
+W = 0.98055, p-value = 0.9779
+
+
+> print(shapiro.test(subset(subjects_data, Condition=="Desktop" & Room=="Conference" & Optimal==FALSE)$Optimal.Time.Ratio))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "Desktop" & Room == "Conference" & Optimal == FALSE)$Optimal.Time.Ratio
+W = 0.97833, p-value = 0.9312
+
+
+> sink() # Stop writing file

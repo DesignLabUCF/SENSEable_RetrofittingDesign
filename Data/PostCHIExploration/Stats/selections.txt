@@ -1,0 +1,1436 @@
+
+> # Correlations with optimal selections and previous experience
+> movement_experience_wilcoxin("AR", NA, "Optimal", "Prev.XR.Experience")
+[1] "===== Wilcoxin ~ Room: NA ~ Condition: AR ~ X: Optimal ~ Y: Prev.XR.Experience ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects_data[subjects_data$Condition == condition, ][[y]] by subjects_data[subjects_data$Condition == condition, ][[x]]
+W = 627.5, p-value = 0.1127
+alternative hypothesis: true location shift is not equal to 0
+
+
+> movement_experience_wilcoxin("AR", NA, "Optimal", "Prev.VR.Experience")
+[1] "===== Wilcoxin ~ Room: NA ~ Condition: AR ~ X: Optimal ~ Y: Prev.VR.Experience ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects_data[subjects_data$Condition == condition, ][[y]] by subjects_data[subjects_data$Condition == condition, ][[x]]
+W = 597.5, p-value = 0.2324
+alternative hypothesis: true location shift is not equal to 0
+
+
+> movement_experience_wilcoxin("AR", NA, "Optimal", "Prev.AR.Experience")
+[1] "===== Wilcoxin ~ Room: NA ~ Condition: AR ~ X: Optimal ~ Y: Prev.AR.Experience ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects_data[subjects_data$Condition == condition, ][[y]] by subjects_data[subjects_data$Condition == condition, ][[x]]
+W = 539.5, p-value = 0.6851
+alternative hypothesis: true location shift is not equal to 0
+
+
+> movement_experience_wilcoxin("AR", NA, "Optimal", "Prev.3D.Modeling.Experience")
+[1] "===== Wilcoxin ~ Room: NA ~ Condition: AR ~ X: Optimal ~ Y: Prev.3D.Modeling.Experience ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects_data[subjects_data$Condition == condition, ][[y]] by subjects_data[subjects_data$Condition == condition, ][[x]]
+W = 497, p-value = 0.8524
+alternative hypothesis: true location shift is not equal to 0
+
+
+> movement_experience_wilcoxin("AR", NA, "Optimal", "Prev.Computer.Experience")
+[1] "===== Wilcoxin ~ Room: NA ~ Condition: AR ~ X: Optimal ~ Y: Prev.Computer.Experience ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects_data[subjects_data$Condition == condition, ][[y]] by subjects_data[subjects_data$Condition == condition, ][[x]]
+W = 498.5, p-value = 0.8147
+alternative hypothesis: true location shift is not equal to 0
+
+
+> movement_experience_wilcoxin("AR", NA, "Optimal", "Construction.Familiarity")
+[1] "===== Wilcoxin ~ Room: NA ~ Condition: AR ~ X: Optimal ~ Y: Construction.Familiarity ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects_data[subjects_data$Condition == condition, ][[y]] by subjects_data[subjects_data$Condition == condition, ][[x]]
+W = 574.5, p-value = 0.3353
+alternative hypothesis: true location shift is not equal to 0
+
+
+> movement_experience_wilcoxin("Desktop", NA, "Optimal", "Prev.3D.Modeling.Experience")
+[1] "===== Wilcoxin ~ Room: NA ~ Condition: Desktop ~ X: Optimal ~ Y: Prev.3D.Modeling.Experience ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects_data[subjects_data$Condition == condition, ][[y]] by subjects_data[subjects_data$Condition == condition, ][[x]]
+W = 517.5, p-value = 0.7924
+alternative hypothesis: true location shift is not equal to 0
+
+
+> movement_experience_wilcoxin("Desktop", NA, "Optimal", "Prev.Computer.Experience")
+[1] "===== Wilcoxin ~ Room: NA ~ Condition: Desktop ~ X: Optimal ~ Y: Prev.Computer.Experience ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects_data[subjects_data$Condition == condition, ][[y]] by subjects_data[subjects_data$Condition == condition, ][[x]]
+W = 595.5, p-value = 0.05624
+alternative hypothesis: true location shift is not equal to 0
+
+
+> movement_experience_wilcoxin("Desktop", NA, "Optimal", "Construction.Familiarity")
+[1] "===== Wilcoxin ~ Room: NA ~ Condition: Desktop ~ X: Optimal ~ Y: Construction.Familiarity ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects_data[subjects_data$Condition == condition, ][[y]] by subjects_data[subjects_data$Condition == condition, ][[x]]
+W = 466.5, p-value = 0.6294
+alternative hypothesis: true location shift is not equal to 0
+
+
+> ## NO INTERACTIONS ##
+> print("==== Desktop Subjects (No interactions) - 4 Ranking Categories ~ Room + Head Movement Classification + Head Rotation  ..." ... [TRUNCATED] 
+[1] "==== Desktop Subjects (No interactions) - 4 Ranking Categories ~ Room + Head Movement Classification + Head Rotation Classification  ===="
+
+> movement_anova <- manova(cbind(Rank,
++                                DL_Rank,
++                                G_Rank,
++                            .... [TRUNCATED] 
+
+> print(summary(movement_anova))
+                        Df   Pillai approx F num Df den Df Pr(>F)
+Room                     1 0.047067  0.70384      4     57 0.5926
+Movement.Classification  1 0.124231  2.02141      4     57 0.1036
+Rotation.Classification  1 0.033210  0.48950      4     57 0.7434
+Residuals               60                                       
+
+> print(summary.aov(movement_anova))
+ Response Rank :
+                        Df  Sum Sq Mean Sq F value  Pr(>F)  
+Room                     1    8.27   8.266  0.3195 0.57403  
+Movement.Classification  1   87.89  87.891  3.3970 0.07026 .
+Rotation.Classification  1   12.57  12.574  0.4860 0.48841  
+Residuals               60 1552.38  25.873                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response DL_Rank :
+                        Df Sum Sq Mean Sq F value Pr(>F)
+Room                     1  42.25  42.250  2.6148 0.1111
+Movement.Classification  1   0.25   0.250  0.0155 0.9014
+Rotation.Classification  1  28.00  28.001  1.7329 0.1930
+Residuals               60 969.50  16.158               
+
+ Response G_Rank :
+                        Df Sum Sq Mean Sq F value Pr(>F)
+Room                     1  23.77  23.766  1.4866 0.2275
+Movement.Classification  1  13.14  13.141  0.8220 0.3682
+Rotation.Classification  1  13.02  13.022  0.8146 0.3704
+Residuals               60 959.18  15.986               
+
+ Response VF_Rank :
+                        Df Sum Sq Mean Sq F value  Pr(>F)  
+Room                     1  25.00  25.000  1.8383 0.18023  
+Movement.Classification  1  49.00  49.000  3.6030 0.06249 .
+Rotation.Classification  1   3.77   3.769  0.2771 0.60054  
+Residuals               60 815.98  13.600                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+> print(shapiro.test(residuals(movement_anova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(movement_anova)
+W = 0.98342, p-value = 0.004494
+
+
+> print("==== AR Subjects (No interactions) - 4 Ranking Categories ~ Room + Head Movement Classification + Head Rotation Classification + Gaze Classif ..." ... [TRUNCATED] 
+[1] "==== AR Subjects (No interactions) - 4 Ranking Categories ~ Room + Head Movement Classification + Head Rotation Classification + Gaze Classification  ===="
+
+> movement_anova <- manova(cbind(Rank,
++                                DL_Rank,
++                                G_Rank,
++                            .... [TRUNCATED] 
+
+> print(summary(movement_anova))
+                        Df   Pillai approx F num Df den Df   Pr(>F)   
+Room                     1 0.085188   1.3037      4     56 0.279821   
+Movement.Classification  1 0.158350   2.6340      4     56 0.043530 * 
+Rotation.Classification  1 0.047000   0.6905      4     56 0.601642   
+Gaze.Classification      1 0.230266   4.1881      4     56 0.004893 **
+Residuals               59                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> print(summary.aov(movement_anova))
+ Response Rank :
+                        Df  Sum Sq Mean Sq F value  Pr(>F)  
+Room                     1   36.00  36.000  1.5850 0.21300  
+Movement.Classification  1    1.00   1.000  0.0440 0.83452  
+Rotation.Classification  1   37.34  37.341  1.6440 0.20479  
+Gaze.Classification      1  151.60 151.596  6.6744 0.01228 *
+Residuals               59 1340.06  22.713                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response DL_Rank :
+                        Df Sum Sq Mean Sq F value  Pr(>F)  
+Room                     1  52.56  52.563  3.8799 0.05357 .
+Movement.Classification  1  18.06  18.062  1.3333 0.25288  
+Rotation.Classification  1   8.19   8.189  0.6045 0.43997  
+Gaze.Classification      1   2.32   2.325  0.1716 0.68020  
+Residuals               59 799.30  13.547                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response G_Rank :
+                        Df Sum Sq Mean Sq F value Pr(>F)
+Room                     1  11.39 11.3906  0.9650 0.3299
+Movement.Classification  1  21.39 21.3906  1.8122 0.1834
+Rotation.Classification  1   2.11  2.1094  0.1787 0.6740
+Gaze.Classification      1   6.67  6.6700  0.5651 0.4552
+Residuals               59 696.42 11.8038               
+
+ Response VF_Rank :
+                        Df Sum Sq Mean Sq F value Pr(>F)
+Room                     1   6.89  6.8906  0.6229 0.4331
+Movement.Classification  1   1.27  1.2656  0.1144 0.7364
+Rotation.Classification  1   0.80  0.7973  0.0721 0.7893
+Gaze.Classification      1  24.72 24.7211  2.2347 0.1403
+Residuals               59 652.68 11.0625               
+
+
+> print(shapiro.test(residuals(movement_anova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(movement_anova)
+W = 0.98332, p-value = 0.004298
+
+
+> ## WITH INTERACTIONS ##
+> print("==== Desktop Subjects (With interactions) - 4 Ranking Categories ~ Room + Head Movement Classification + Head Rotat ..." ... [TRUNCATED] 
+[1] "==== Desktop Subjects (With interactions) - 4 Ranking Categories ~ Room + Head Movement Classification + Head Rotation Classification  ===="
+
+> movement_anova <- manova(cbind(Rank,
++                                DL_Rank,
++                                G_Rank,
++                            .... [TRUNCATED] 
+
+> print(summary(movement_anova))
+                             Df   Pillai approx F num Df den Df  Pr(>F)  
+Room                          1 0.051198  0.75545      4     56 0.55867  
+Movement.Classification       1 0.124238  1.98609      4     56 0.10913  
+Rotation.Classification       1 0.033697  0.48821      4     56 0.74432  
+Room:Rotation.Classification  1 0.129917  2.09042      4     56 0.09419 .
+Residuals                    59                                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> print(summary.aov(movement_anova))
+ Response Rank :
+                             Df  Sum Sq Mean Sq F value  Pr(>F)  
+Room                          1    8.27   8.266  0.3258 0.57029  
+Movement.Classification       1   87.89  87.891  3.4646 0.06768 .
+Rotation.Classification       1   12.57  12.574  0.4957 0.48418  
+Room:Rotation.Classification  1   55.68  55.677  2.1948 0.14380  
+Residuals                    59 1496.70  25.368                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response DL_Rank :
+                             Df Sum Sq Mean Sq F value  Pr(>F)  
+Room                          1  42.25  42.250  2.7169 0.10460  
+Movement.Classification       1   0.25   0.250  0.0161 0.89953  
+Rotation.Classification       1  28.00  28.001  1.8006 0.18478  
+Room:Rotation.Classification  1  52.02  52.016  3.3449 0.07247 .
+Residuals                    59 917.48  15.551                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response G_Rank :
+                             Df Sum Sq Mean Sq F value Pr(>F)
+Room                          1  23.77  23.766  1.5218 0.2222
+Movement.Classification       1  13.14  13.141  0.8414 0.3627
+Rotation.Classification       1  13.02  13.022  0.8338 0.3649
+Room:Rotation.Classification  1  37.78  37.778  2.4190 0.1252
+Residuals                    59 921.40  15.617               
+
+ Response VF_Rank :
+                             Df Sum Sq Mean Sq F value  Pr(>F)  
+Room                          1  25.00  25.000  1.9256 0.17046  
+Movement.Classification       1  49.00  49.000  3.7741 0.05683 .
+Rotation.Classification       1   3.77   3.769  0.2903 0.59208  
+Room:Rotation.Classification  1  49.97  49.968  3.8486 0.05451 .
+Residuals                    59 766.01  12.983                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+> print(shapiro.test(residuals(movement_anova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(movement_anova)
+W = 0.99198, p-value = 0.1787
+
+
+> print("==== AR Subjects (With interactions) - 4 Ranking Categories ~ Room + Head Movement Classification + Head Rotation Classification + Gaze Class ..." ... [TRUNCATED] 
+[1] "==== AR Subjects (With interactions) - 4 Ranking Categories ~ Room + Head Movement Classification + Head Rotation Classification + Gaze Classification  ===="
+
+> movement_anova <- manova(cbind(Rank,
++                                DL_Rank,
++                                G_Rank,
++                            .... [TRUNCATED] 
+
+> print(summary(movement_anova))
+                             Df   Pillai approx F num Df den Df   Pr(>F)   
+Room                          1 0.096171   1.4365      4     54 0.234541   
+Movement.Classification       1 0.159044   2.5532      4     54 0.049280 * 
+Rotation.Classification       1 0.050755   0.7218      4     54 0.580808   
+Gaze.Classification           1 0.234133   4.1271      4     54 0.005454 **
+Room:Movement.Classification  1 0.044556   0.6296      4     54 0.643516   
+Room:Gaze.Classification      1 0.154245   2.4621      4     54 0.056059 . 
+Residuals                    57                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> print(summary.aov(movement_anova))
+ Response Rank :
+                             Df  Sum Sq Mean Sq F value  Pr(>F)  
+Room                          1   36.00  36.000  1.6483 0.20438  
+Movement.Classification       1    1.00   1.000  0.0458 0.83133  
+Rotation.Classification       1   37.34  37.341  1.7097 0.19627  
+Gaze.Classification           1  151.60 151.596  6.9410 0.01083 *
+Room:Movement.Classification  1   21.73  21.729  0.9949 0.32277  
+Room:Gaze.Classification      1   73.42  73.422  3.3617 0.07195 .
+Residuals                    57 1244.91  21.841                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response DL_Rank :
+                             Df Sum Sq Mean Sq F value   Pr(>F)   
+Room                          1  52.56  52.563  4.2643 0.043480 * 
+Movement.Classification       1  18.06  18.062  1.4654 0.231071   
+Rotation.Classification       1   8.19   8.189  0.6644 0.418407   
+Gaze.Classification           1   2.32   2.325  0.1886 0.665722   
+Room:Movement.Classification  1   0.87   0.870  0.0705 0.791505   
+Room:Gaze.Classification      1  95.84  95.840  7.7754 0.007186 **
+Residuals                    57 702.59  12.326                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response G_Rank :
+                             Df Sum Sq Mean Sq F value  Pr(>F)  
+Room                          1  11.39  11.391  1.0186 0.31711  
+Movement.Classification       1  21.39  21.391  1.9129 0.17203  
+Rotation.Classification       1   2.11   2.109  0.1886 0.66569  
+Gaze.Classification           1   6.67   6.670  0.5965 0.44312  
+Room:Movement.Classification  1  11.48  11.481  1.0267 0.31522  
+Room:Gaze.Classification      1  47.55  47.554  4.2526 0.04376 *
+Residuals                    57 637.39  11.182                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response VF_Rank :
+                             Df Sum Sq Mean Sq F value Pr(>F)
+Room                          1   6.89  6.8906  0.6356 0.4286
+Movement.Classification       1   1.27  1.2656  0.1167 0.7339
+Rotation.Classification       1   0.80  0.7973  0.0735 0.7872
+Gaze.Classification           1  24.72 24.7211  2.2803 0.1366
+Room:Movement.Classification  1  18.64 18.6351  1.7189 0.1951
+Room:Gaze.Classification      1  16.09 16.0906  1.4842 0.2281
+Residuals                    57 617.96 10.8414               
+
+
+> print(shapiro.test(residuals(movement_anova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(movement_anova)
+W = 0.99119, p-value = 0.127
+
+
+> interaction_plot("Office", subset(subjects_data, Room=="Office"), "Condition", "Optimal", "Prev.XR.Experience")
+null device 
+          1 
+
+> interaction_plot("Office", subset(subjects_data, Room=="Office"), "Condition", "Optimal", "Prev.VR.Experience")
+null device 
+          1 
+
+> interaction_plot("Office", subset(subjects_data, Room=="Office"), "Condition", "Optimal", "Prev.AR.Experience")
+null device 
+          1 
+
+> interaction_plot("Office", subset(subjects_data, Room=="Office"), "Condition", "Optimal", "Prev.3D.Modeling.Experience")
+null device 
+          1 
+
+> interaction_plot("Office", subset(subjects_data, Room=="Office"), "Condition", "Optimal", "Prev.Computer.Experience")
+null device 
+          1 
+
+> interaction_plot("Office", subset(subjects_data, Room=="Office"), "Condition", "Optimal", "Construction.Familiarity")
+null device 
+          1 
+
+> interaction_plot("Conference", subset(subjects_data, Room=="Conference"), "Condition", "Optimal", "Prev.XR.Experience")
+null device 
+          1 
+
+> interaction_plot("Conference", subset(subjects_data, Room=="Conference"), "Condition", "Optimal", "Prev.VR.Experience")
+null device 
+          1 
+
+> interaction_plot("Conference", subset(subjects_data, Room=="Conference"), "Condition", "Optimal", "Prev.AR.Experience")
+null device 
+          1 
+
+> interaction_plot("Conference", subset(subjects_data, Room=="Conference"), "Condition", "Optimal", "Prev.3D.Modeling.Experience")
+null device 
+          1 
+
+> interaction_plot("Conference", subset(subjects_data, Room=="Conference"), "Condition", "Optimal", "Prev.Computer.Experience")
+null device 
+          1 
+
+> interaction_plot("Conference", subset(subjects_data, Room=="Conference"), "Condition", "Optimal", "Construction.Familiarity")
+null device 
+          1 
+
+> print("===== Prev. Experience Manova (Office) for ~ Condition + Experience Metrics =====")
+[1] "===== Prev. Experience Manova (Office) for ~ Condition + Experience Metrics ====="
+
+> experience_manova <- manova(cbind(Prev.XR.Experience,
++                                   Prev.VR.Experience,
++                                   Pr .... [TRUNCATED] 
+
+> print(summary(experience_manova))
+                  Df   Pillai approx F num Df den Df Pr(>F)
+Condition          1 0.128382  1.35017      6     55 0.2512
+Optimal            1 0.075467  0.74825      6     55 0.6134
+Condition:Optimal  1 0.112910  1.16675      6     55 0.3374
+Residuals         60                                       
+
+> print(summary.aov(experience_manova))
+ Response Prev.XR.Experience :
+                  Df Sum Sq Mean Sq F value Pr(>F)
+Condition          1   5.64  5.6406  0.9078 0.3445
+Optimal            1   0.41  0.4109  0.0661 0.7979
+Condition:Optimal  1   6.99  6.9948  1.1257 0.2929
+Residuals         60 372.81  6.2136               
+
+ Response Prev.VR.Experience :
+                  Df  Sum Sq Mean Sq F value Pr(>F)
+Condition          1   3.063  3.0625  1.3248 0.2543
+Optimal            1   0.086  0.0857  0.0371 0.8479
+Condition:Optimal  1   4.149  4.1487  1.7946 0.1854
+Residuals         60 138.703  2.3117               
+
+ Response Prev.AR.Experience :
+                  Df  Sum Sq Mean Sq F value Pr(>F)
+Condition          1   2.641 2.64063  1.0071 0.3196
+Optimal            1   0.979 0.97852  0.3732 0.5436
+Condition:Optimal  1   2.664 2.66435  1.0161 0.3175
+Residuals         60 157.326 2.62210               
+
+ Response Prev.3D.Modeling.Experience :
+                  Df  Sum Sq Mean Sq F value Pr(>F)
+Condition          1   0.562 0.56250  0.2869 0.5942
+Optimal            1   2.815 2.81463  1.4355 0.2356
+Condition:Optimal  1   0.420 0.41986  0.2141 0.6452
+Residuals         60 117.641 1.96068               
+
+ Response Prev.Computer.Experience :
+                  Df Sum Sq Mean Sq F value Pr(>F)
+Condition          1  1.000 1.00000  1.0142 0.3179
+Optimal            1  0.257 0.25651  0.2602 0.6119
+Condition:Optimal  1  0.585 0.58495  0.5933 0.4442
+Residuals         60 59.159 0.98598               
+
+ Response Construction.Familiarity :
+                  Df  Sum Sq Mean Sq F value  Pr(>F)  
+Condition          1   6.891  6.8906  3.9207 0.05229 .
+Optimal            1   5.450  5.4500  3.1010 0.08334 .
+Condition:Optimal  1   6.819  6.8188  3.8798 0.05349 .
+Residuals         60 105.450  1.7575                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+> print(shapiro.test(residuals(experience_manova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(experience_manova)
+W = 0.97352, p-value = 1.823e-06
+
+
+> print("===== Prev. Experience Manova (Conference) for ~ Condition + Experience Metrics =====")
+[1] "===== Prev. Experience Manova (Conference) for ~ Condition + Experience Metrics ====="
+
+> experience_manova <- manova(cbind(Prev.XR.Experience,
++                                   Prev.VR.Experience,
++                                   Pr .... [TRUNCATED] 
+
+> print(summary(experience_manova))
+                  Df   Pillai approx F num Df den Df Pr(>F)
+Condition          1 0.091619  0.92454      6     55 0.4847
+Optimal            1 0.120083  1.25098      6     55 0.2952
+Condition:Optimal  1 0.052844  0.51143      6     55 0.7971
+Residuals         60                                       
+
+> print(summary.aov(experience_manova))
+ Response Prev.XR.Experience :
+                  Df Sum Sq Mean Sq F value Pr(>F)
+Condition          1   1.56  1.5625  0.1936 0.6615
+Optimal            1   5.76  5.7601  0.7138 0.4015
+Condition:Optimal  1   5.52  5.5217  0.6843 0.4114
+Residuals         60 484.16  8.0693               
+
+ Response Prev.VR.Experience :
+                  Df  Sum Sq Mean Sq F value Pr(>F)
+Condition          1   3.516  3.5156  0.9550 0.3324
+Optimal            1   2.560  2.5600  0.6955 0.4076
+Condition:Optimal  1   0.418  0.4176  0.1135 0.7374
+Residuals         60 220.866  3.6811               
+
+ Response Prev.AR.Experience :
+                  Df  Sum Sq Mean Sq F value Pr(>F)
+Condition          1   4.000  4.0000  1.4235 0.2375
+Optimal            1   0.916  0.9156  0.3258 0.5702
+Condition:Optimal  1   4.926  4.9257  1.7529 0.1905
+Residuals         60 168.596  2.8099               
+
+ Response Prev.3D.Modeling.Experience :
+                  Df  Sum Sq Mean Sq F value Pr(>F)
+Condition          1   0.016  0.0156  0.0058 0.9397
+Optimal            1   4.418  4.4183  1.6334 0.2062
+Condition:Optimal  1   0.131  0.1308  0.0484 0.8267
+Residuals         60 162.295  2.7049               
+
+ Response Prev.Computer.Experience :
+                  Df Sum Sq Mean Sq F value Pr(>F)
+Condition          1  0.062 0.06250  0.0891 0.7663
+Optimal            1  0.394 0.39370  0.5613 0.4566
+Condition:Optimal  1  0.400 0.39995  0.5703 0.4531
+Residuals         60 42.081 0.70136               
+
+ Response Construction.Familiarity :
+                  Df  Sum Sq Mean Sq F value  Pr(>F)  
+Condition          1   2.641  2.6406  1.4626 0.23125  
+Optimal            1   7.972  7.9724  4.4160 0.03981 *
+Condition:Optimal  1   0.174  0.1739  0.0963 0.75737  
+Residuals         60 108.322  1.8054                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+> print(shapiro.test(residuals(experience_manova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(experience_manova)
+W = 0.94358, p-value = 6.489e-11
+
+
+> usability_wilcoxin_individual("AR", "Office", "Construction.Familiarity")
+[1] "===== Wilcoxin ~ Room: Office ~ Condition: AR ~ Metric: Construction.Familiarity ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  optimal_subjects[[metric]] and poor_subjects[[metric]]
+W = 125.5, p-value = 1
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -1.781339e-05  2.155629e-05
+sample estimates:
+difference in location 
+         -6.122739e-05 
+
+
+Cohen's d
+
+d estimate: -0.05368088 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.7815703  0.6742085 
+
+
+> usability_wilcoxin_individual("AR", "Conference", "Construction.Familiarity")
+[1] "===== Wilcoxin ~ Room: Conference ~ Condition: AR ~ Metric: Construction.Familiarity ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  optimal_subjects[[metric]] and poor_subjects[[metric]]
+W = 99, p-value = 0.2405
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -1.000001e+00  5.185815e-05
+sample estimates:
+difference in location 
+         -5.743638e-05 
+
+
+Cohen's d
+
+d estimate: -0.5409159 (medium)
+95 percent confidence interval:
+     lower      upper 
+-1.2760538  0.1942219 
+
+
+> usability_wilcoxin_individual("Desktop", "Office", "Construction.Familiarity")
+[1] "===== Wilcoxin ~ Room: Office ~ Condition: Desktop ~ Metric: Construction.Familiarity ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  optimal_subjects[[metric]] and poor_subjects[[metric]]
+W = 175.5, p-value = 0.03892
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.0000161839 2.9999624308
+sample estimates:
+difference in location 
+              1.000054 
+
+
+Cohen's d
+
+d estimate: 0.8655646 (large)
+95 percent confidence interval:
+     lower      upper 
+0.09798275 1.63314655 
+
+
+> usability_wilcoxin_individual("Desktop", "Conference", "Construction.Familiarity")
+[1] "===== Wilcoxin ~ Room: Conference ~ Condition: Desktop ~ Metric: Construction.Familiarity ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  optimal_subjects[[metric]] and poor_subjects[[metric]]
+W = 95.5, p-value = 0.1754
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -9.999563e-01  1.913501e-05
+sample estimates:
+difference in location 
+         -7.438293e-06 
+
+
+Cohen's d
+
+d estimate: -0.5182675 (medium)
+95 percent confidence interval:
+     lower      upper 
+-1.2579565  0.2214215 
+
+
+> print("===== Difference in Pre/Post (All subjects) ~ Condition + Room + Movement Classification + Rotation Classification =====")
+[1] "===== Difference in Pre/Post (All subjects) ~ Condition + Room + Movement Classification + Rotation Classification ====="
+
+> manova <- manova(cbind(Rank_Diff,
++                        VF_Rank_Diff,
++                        DL_Rank_Diff,
++                        G_Rank_Diff .... [TRUNCATED] 
+
+> print(summary(manova))
+                         Df   Pillai approx F num Df den Df  Pr(>F)  
+Room                      1 0.103148   3.4503      4    120 0.01047 *
+Condition                 1 0.050074   1.5814      4    120 0.18362  
+Movement.Classification   1 0.026716   0.8235      4    120 0.51267  
+Rotation.Classification   1 0.057410   1.8272      4    120 0.12800  
+Residuals               123                                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> print(summary.aov(manova))
+ Response Rank_Diff :
+                         Df Sum Sq Mean Sq F value Pr(>F)
+Room                      1   51.3  51.258  1.2337 0.2688
+Condition                 1  103.3 103.320  2.4869 0.1174
+Movement.Classification   1   35.1  35.070  0.8441 0.3600
+Rotation.Classification   1   11.2  11.182  0.2691 0.6048
+Residuals               123 5110.2  41.547               
+
+ Response VF_Rank_Diff :
+                         Df  Sum Sq Mean Sq F value  Pr(>F)  
+Room                      1   69.03  69.031  2.8095 0.09625 .
+Condition                 1   55.12  55.125  2.2435 0.13674  
+Movement.Classification   1   11.28  11.281  0.4591 0.49930  
+Rotation.Classification   1    6.85   6.849  0.2787 0.59848  
+Residuals               123 3022.18  24.571                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response DL_Rank_Diff :
+                         Df Sum Sq Mean Sq F value  Pr(>F)  
+Room                      1  192.6 192.570  6.2090 0.01404 *
+Condition                 1    1.3   1.320  0.0426 0.83688  
+Movement.Classification   1    3.4   3.445  0.1111 0.73948  
+Rotation.Classification   1  138.4 138.411  4.4627 0.03666 *
+Residuals               123 3814.8  31.015                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response G_Rank_Diff :
+                         Df Sum Sq Mean Sq F value  Pr(>F)  
+Room                      1   35.1  35.070  1.0420 0.30935  
+Condition                 1  126.0 126.008  3.7440 0.05529 .
+Movement.Classification   1   41.6  41.633  1.2370 0.26822  
+Rotation.Classification   1    1.3   1.286  0.0382 0.84534  
+Residuals               123 4139.7  33.656                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+> print(shapiro.test(residuals(manova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(manova)
+W = 0.99375, p-value = 0.03283
+
+
+> print("Failed Assumption of normailty check so IGNORE")
+[1] "Failed Assumption of normailty check so IGNORE"
+
+> print("===== Difference in Pre/Post (AR Subjects) ~ Room + Movement Classification + Rotation Classification + Gaze Classification =====")
+[1] "===== Difference in Pre/Post (AR Subjects) ~ Room + Movement Classification + Rotation Classification + Gaze Classification ====="
+
+> manova <- manova(cbind(Rank_Diff,
++                        VF_Rank_Diff,
++                        DL_Rank_Diff,
++                        G_Rank_Diff .... [TRUNCATED] 
+
+> print(summary(manova))
+                        Df   Pillai approx F num Df den Df  Pr(>F)  
+Room                     1 0.198396   3.4650      4     56 0.01341 *
+Movement.Classification  1 0.148947   2.4502      4     56 0.05653 .
+Rotation.Classification  1 0.022196   0.3178      4     56 0.86490  
+Gaze.Classification      1 0.182921   3.1342      4     56 0.02139 *
+Residuals               59                                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> print(summary.aov(manova))
+ Response Rank_Diff :
+                        Df  Sum Sq Mean Sq F value Pr(>F)  
+Room                     1   95.06  95.063  2.5364 0.1166  
+Movement.Classification  1    4.00   4.000  0.1067 0.7451  
+Rotation.Classification  1    0.03   0.030  0.0008 0.9777  
+Gaze.Classification      1  131.40 131.401  3.5060 0.0661 .
+Residuals               59 2211.26  37.479                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response VF_Rank_Diff :
+                        Df  Sum Sq Mean Sq F value  Pr(>F)  
+Room                     1   97.52  97.516  5.0330 0.02864 *
+Movement.Classification  1   17.02  17.016  0.8782 0.35251  
+Rotation.Classification  1    0.16   0.158  0.0082 0.92825  
+Gaze.Classification      1   97.03  97.029  5.0079 0.02902 *
+Residuals               59 1143.14  19.375                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response DL_Rank_Diff :
+                        Df  Sum Sq Mean Sq F value   Pr(>F)   
+Room                     1  213.89 213.891  7.4270 0.008443 **
+Movement.Classification  1   17.02  17.016  0.5908 0.445160   
+Rotation.Classification  1   12.23  12.225  0.4245 0.517231   
+Gaze.Classification      1   13.21  13.212  0.4588 0.500851   
+Residuals               59 1699.14  28.799                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response G_Rank_Diff :
+                        Df  Sum Sq Mean Sq F value  Pr(>F)  
+Room                     1   92.64  92.641  3.3639 0.07168 .
+Movement.Classification  1   92.64  92.641  3.3639 0.07168 .
+Rotation.Classification  1    3.00   3.000  0.1089 0.74252  
+Gaze.Classification      1    1.14   1.135  0.0412 0.83979  
+Residuals               59 1624.82  27.539                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+> print(shapiro.test(residuals(manova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(manova)
+W = 0.99041, p-value = 0.09058
+
+
+> print("===== Wilcoxins for final selection rankings =====")
+[1] "===== Wilcoxins for final selection rankings ====="
+
+> print(shapiro.test(subset(subjects_data, Condition=="AR" & Room=="Office")$Rank))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "AR" & Room == "Office")$Rank
+W = 0.86806, p-value = 0.001048
+
+
+> print(shapiro.test(subset(subjects_data, Condition=="Desktop" & Room=="Office")$Rank))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "Desktop" & Room == "Office")$Rank
+W = 0.87168, p-value = 0.00127
+
+
+> usability_wilcoxin_room("Office", "Rank")
+[1] "===== Wilcoxin ~ Room: Office ~ Metric: Rank ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[metric]] by subjects$Condition
+W = 429, p-value = 0.2647
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -3.000027  0.999967
+sample estimates:
+difference in location 
+            -0.9999555 
+
+
+Cohen's d
+
+d estimate: -0.2709457 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.7729763  0.2310848 
+
+    r 
+-0.14 
+
+> print_basic_stats("Office", "AR", "Rank")
+[1] "===== Basic Stats ~ Room: Office ~ Condition: AR ~ Metric: Rank ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+  32.0000000    0.0000000    0.0000000    1.0000000   15.0000000   14.0000000  208.0000000    6.0000000    6.5000000    0.8543060 
+CI.mean.0.95          var      std.dev     coef.var 
+   1.7423685   23.3548387    4.8326844    0.7434899 
+
+> print_basic_stats("Office", "Desktop", "Rank")
+[1] "===== Basic Stats ~ Room: Office ~ Condition: Desktop ~ Metric: Rank ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+  32.0000000    0.0000000    0.0000000    1.0000000   15.0000000   14.0000000  250.0000000    9.5000000    7.8125000    0.8583526 
+CI.mean.0.95          var      std.dev     coef.var 
+   1.7506216   23.5766129    4.8555754    0.6215137 
+
+> print(shapiro.test(subset(subjects_data, Condition=="AR" & Room=="Conference")$Rank))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "AR" & Room == "Conference")$Rank
+W = 0.87534, p-value = 0.001545
+
+
+> print(shapiro.test(subset(subjects_data, Condition=="Desktop" & Room=="Conference")$Rank))
+
+	Shapiro-Wilk normality test
+
+data:  subset(subjects_data, Condition == "Desktop" & Room == "Conference")$Rank
+W = 0.87271, p-value = 0.001342
+
+
+> usability_wilcoxin_room("Conference", "Rank")
+[1] "===== Wilcoxin ~ Room: Conference ~ Metric: Rank ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[metric]] by subjects$Condition
+W = 486, p-value = 0.7308
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -2.999972  1.999945
+sample estimates:
+difference in location 
+         -8.422505e-05 
+
+
+Cohen's d
+
+d estimate: -0.1006299 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.6006889  0.3994292 
+
+      r 
+-0.0439 
+
+> print_basic_stats("Conference", "AR", "Rank")
+[1] "===== Basic Stats ~ Room: Conference ~ Condition: AR ~ Metric: Rank ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+  32.0000000    0.0000000    0.0000000    1.0000000   15.0000000   14.0000000  256.0000000    8.0000000    8.0000000    0.9013878 
+CI.mean.0.95          var      std.dev     coef.var 
+   1.8383926   26.0000000    5.0990195    0.6373774 
+
+> print_basic_stats("Conference", "Desktop", "Rank")
+[1] "===== Basic Stats ~ Room: Conference ~ Condition: Desktop ~ Metric: Rank ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+  32.0000000    0.0000000    0.0000000    1.0000000   16.0000000   15.0000000  273.0000000   10.5000000    8.5312500    0.9640560 
+CI.mean.0.95          var      std.dev     coef.var 
+   1.9662052   29.7409274    5.4535243    0.6392409 
+
+> #t_test_single("AR", "Office", "Rank_Diff")
+> wilcoxin_single("AR", "Office", "Rank_Diff")
+[1] "===== Wilcoxin ~ Room: Office ~ Condition: AR ~ Metric: Rank_Diff ====="
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  subjects_in_room[[metric]]
+V = 124.5, p-value = 0.01579
+alternative hypothesis: true location is not equal to 0
+95 percent confidence interval:
+ -4.9999183 -0.5000398
+sample estimates:
+(pseudo)median 
+     -2.999956 
+
+
+Cohen's d (single sample)
+
+d estimate: -0.4703112 (small)
+Reference mu: 0
+95 percent confidence interval:
+     lower      upper 
+-1.2012886  0.2606663 
+
+
+> print_basic_stats("Office", "AR", "Rank_Diff")
+[1] "===== Basic Stats ~ Room: Office ~ Condition: AR ~ Metric: Rank_Diff ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+  32.0000000    1.0000000    0.0000000  -11.0000000   10.0000000   21.0000000  -81.0000000   -3.0000000   -2.5312500    0.9514255 
+CI.mean.0.95          var      std.dev     coef.var 
+   1.9404450   28.9667339    5.3820752   -2.1262519 
+
+> wilcoxin_single("Desktop", "Office", "Rank_Diff")
+[1] "===== Wilcoxin ~ Room: Office ~ Condition: Desktop ~ Metric: Rank_Diff ====="
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  subjects_in_room[[metric]]
+V = 211.5, p-value = 0.8552
+alternative hypothesis: true location is not equal to 0
+95 percent confidence interval:
+ -2.499995  3.499963
+sample estimates:
+(pseudo)median 
+  6.748197e-05 
+
+
+Cohen's d (single sample)
+
+d estimate: 0.06735592 (negligible)
+Reference mu: 0
+95 percent confidence interval:
+     lower      upper 
+-0.6539254  0.7886372 
+
+
+> print_basic_stats("Office", "Desktop", "Rank_Diff")
+[1] "===== Basic Stats ~ Room: Office ~ Condition: Desktop ~ Metric: Rank_Diff ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+   32.000000     4.000000     0.000000   -14.000000    13.000000    27.000000    14.000000     0.000000     0.437500     1.148226 
+CI.mean.0.95          var      std.dev     coef.var 
+    2.341822    42.189516     6.495346    14.846505 
+
+> wilcoxin_single("AR", "Conference", "Rank_Diff")
+[1] "===== Wilcoxin ~ Room: Conference ~ Condition: AR ~ Metric: Rank_Diff ====="
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  subjects_in_room[[metric]]
+V = 155.5, p-value = 0.861
+alternative hypothesis: true location is not equal to 0
+95 percent confidence interval:
+ -3.999992  3.000016
+sample estimates:
+(pseudo)median 
+    -0.4999935 
+
+
+Cohen's d (single sample)
+
+d estimate: -0.01371387 (negligible)
+Reference mu: 0
+95 percent confidence interval:
+     lower      upper 
+-0.7347992  0.7073715 
+
+
+> print_basic_stats("Conference", "AR", "Rank_Diff")
+[1] "===== Basic Stats ~ Room: Conference ~ Condition: AR ~ Metric: Rank_Diff ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+   32.000000     7.000000     0.000000   -13.000000    14.000000    27.000000    -3.000000     0.000000    -0.093750     1.208471 
+CI.mean.0.95          var      std.dev     coef.var 
+    2.464693    46.732863     6.836144   -72.918868 
+
+> wilcoxin_single("Desktop", "Conference", "Rank_Diff")
+[1] "===== Wilcoxin ~ Room: Conference ~ Condition: Desktop ~ Metric: Rank_Diff ====="
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  subjects_in_room[[metric]]
+V = 230.5, p-value = 0.7861
+alternative hypothesis: true location is not equal to 0
+95 percent confidence interval:
+ -2.999954  3.000010
+sample estimates:
+(pseudo)median 
+     0.4999417 
+
+
+Cohen's d (single sample)
+
+d estimate: 0.07746503 (negligible)
+Reference mu: 0
+95 percent confidence interval:
+     lower      upper 
+-0.6438823  0.7988123 
+
+
+> print_basic_stats("Conference", "Desktop", "Rank_Diff")
+[1] "===== Basic Stats ~ Room: Conference ~ Condition: Desktop ~ Metric: Rank_Diff ====="
+     nbr.val     nbr.null       nbr.na          min          max        range          sum       median         mean      SE.mean 
+   32.000000     3.000000     0.000000   -11.000000    14.000000    25.000000    17.000000     0.000000     0.531250     1.212323 
+CI.mean.0.95          var      std.dev     coef.var 
+    2.472549    47.031250     6.857933    12.909051 
+
+> print("===== Difference in Pre/Post ANOVA ~ Condition * Room=====")
+[1] "===== Difference in Pre/Post ANOVA ~ Condition * Room====="
+
+> difference_anova <- aov(Rank_Diff ~ Condition * Room,
++                         data = subjects_data)
+
+> print(summary(difference_anova))
+                Df Sum Sq Mean Sq F value Pr(>F)
+Condition        1    103  103.32   2.506  0.116
+Room             1     51   51.26   1.243  0.267
+Condition:Room   1     44   43.95   1.066  0.304
+Residuals      124   5113   41.23               
+
+> print(summary.aov(difference_anova))
+                Df Sum Sq Mean Sq F value Pr(>F)
+Condition        1    103  103.32   2.506  0.116
+Room             1     51   51.26   1.243  0.267
+Condition:Room   1     44   43.95   1.066  0.304
+Residuals      124   5113   41.23               
+
+> print(shapiro.test(residuals(difference_anova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(difference_anova)
+W = 0.97694, p-value = 0.02779
+
+
+> print("===== Difference in Pre/Post Variables MANOVA ~ Condition * Room=====")
+[1] "===== Difference in Pre/Post Variables MANOVA ~ Condition * Room====="
+
+> difference_anova <- manova(cbind(VF_Rank_Diff, G_Rank_Diff, DL_Rank_Diff) ~ Condition * Room,
++                         data = subjects_data)
+
+> print(summary(difference_anova))
+                Df   Pillai approx F num Df den Df  Pr(>F)  
+Condition        1 0.038987   1.6498      3    122 0.18146  
+Room             1 0.077099   3.3973      3    122 0.02008 *
+Condition:Room   1 0.017102   0.7076      3    122 0.54927  
+Residuals      124                                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> print(summary.aov(difference_anova))
+ Response VF_Rank_Diff :
+                Df  Sum Sq Mean Sq F value  Pr(>F)  
+Condition        1   55.12  55.125  2.2722 0.13426  
+Room             1   69.03  69.031  2.8454 0.09415 .
+Condition:Room   1   32.00  32.000  1.3190 0.25298  
+Residuals      124 3008.31  24.261                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response G_Rank_Diff :
+                Df Sum Sq Mean Sq F value  Pr(>F)  
+Condition        1  126.0 126.008  3.7893 0.05384 .
+Room             1   35.1  35.070  1.0546 0.30644  
+Condition:Room   1   59.1  59.133  1.7782 0.18481  
+Residuals      124 4123.5  33.254                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response DL_Rank_Diff :
+                Df Sum Sq Mean Sq F value  Pr(>F)  
+Condition        1    1.3   1.320  0.0419 0.83821  
+Room             1  192.6 192.570  6.1066 0.01483 *
+Condition:Room   1   46.3  46.320  1.4689 0.22783  
+Residuals      124 3910.3  31.535                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+> print(shapiro.test(residuals(difference_anova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(difference_anova)
+W = 0.99076, p-value = 0.01652
+
+
+> print("===== Binary Logistical Regression (All) : Optimal ~ Room * Movement Ratios =====")
+[1] "===== Binary Logistical Regression (All) : Optimal ~ Room * Movement Ratios ====="
+
+> blr <- glm(factor(Optimal) ~ # https://digitaschools.com/binary-logistic-regression-in-r/
++              Room * (Movement.Ratio +
++                  .... [TRUNCATED] 
+
+> print(summary(blr))
+
+Call:
+glm(formula = factor(Optimal) ~ Room * (Movement.Ratio + Optimal.Movement.Ratio + 
+    Poor.Movement.Ratio + Head.Ratio + Optimal.Head.Ratio + Poor.Head.Ratio + 
+    Gaze.Ratio + Optimal.Gaze.Ratio + Poor.Gaze.Ratio), family = binomial, 
+    data = subset(subjects_data, Condition == "AR"))
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.2657  -0.8791   0.1139   0.8521   1.9053  
+
+Coefficients:
+                                   Estimate Std. Error z value Pr(>|z|)
+(Intercept)                        -0.03298    1.42042  -0.023    0.981
+RoomOffice                          1.08427    2.33189   0.465    0.642
+Movement.Ratio                      0.52804    0.96853   0.545    0.586
+Optimal.Movement.Ratio             -0.34360    0.53034  -0.648    0.517
+Poor.Movement.Ratio                -0.21551    0.46852  -0.460    0.646
+Head.Ratio                          1.41764   14.73510   0.096    0.923
+Optimal.Head.Ratio                 -1.74069    3.06398  -0.568    0.570
+Poor.Head.Ratio                     0.08627   14.07615   0.006    0.995
+Gaze.Ratio                        -26.81866   67.44872  -0.398    0.691
+Optimal.Gaze.Ratio                 26.62148   35.43477   0.751    0.452
+Poor.Gaze.Ratio                     2.36610   34.21900   0.069    0.945
+RoomOffice:Movement.Ratio          -1.15779    1.87733  -0.617    0.537
+RoomOffice:Optimal.Movement.Ratio   0.74584    1.00783   0.740    0.459
+RoomOffice:Poor.Movement.Ratio      0.25568    0.99121   0.258    0.796
+RoomOffice:Head.Ratio              24.53871   23.46899   1.046    0.296
+RoomOffice:Optimal.Head.Ratio      -0.98739    3.57269  -0.276    0.782
+RoomOffice:Poor.Head.Ratio        -18.90407   21.18468  -0.892    0.372
+RoomOffice:Gaze.Ratio             -42.81826   86.58244  -0.495    0.621
+RoomOffice:Optimal.Gaze.Ratio      -3.21368   41.82106  -0.077    0.939
+RoomOffice:Poor.Gaze.Ratio         43.57184   47.34709   0.920    0.357
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 88.473  on 63  degrees of freedom
+Residual deviance: 65.308  on 44  degrees of freedom
+AIC: 105.31
+
+Number of Fisher Scoring iterations: 6
+
+
+> print("===== Binary Logistical Regression (All) : Optimal ~ Room * Movement Classifications =====")
+[1] "===== Binary Logistical Regression (All) : Optimal ~ Room * Movement Classifications ====="
+
+> blr <- glm(factor(Optimal) ~ # https://digitaschools.com/binary-logistic-regression-in-r/
++              Room * (Movement.Classification +
++         .... [TRUNCATED] 
+
+> print(summary(blr))
+
+Call:
+glm(formula = factor(Optimal) ~ Room * (Movement.Classification + 
+    Optimal.Movement.Classification + Poor.Movement.Classification + 
+    Rotation.Classification + Optimal.Rotation.Classification + 
+    Poor.Rotation.Classification + Gaze.Classification + Optimal.Gaze.Classification + 
+    Poor.Gaze.Classification), family = binomial, data = subset(subjects_data, 
+    Condition == "AR"))
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-1.74550  -1.00397   0.00007   0.98161   1.42198  
+
+Coefficients: (1 not defined because of singularities)
+                                                Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                   -2.209e-01  7.420e-01  -0.298    0.766
+RoomOffice                                     1.548e-01  1.045e+00   0.148    0.882
+Movement.ClassificationLow                     1.894e+01  7.037e+03   0.003    0.998
+Optimal.Movement.ClassificationLow            -2.695e+01  4.599e+05   0.000    1.000
+Poor.Movement.ClassificationLow                9.301e+00  4.599e+05   0.000    1.000
+Rotation.ClassificationLow                    -9.429e+00  4.599e+05   0.000    1.000
+Optimal.Rotation.ClassificationLow             6.007e-01  1.109e+00   0.542    0.588
+Poor.Rotation.ClassificationLow                9.037e+00  4.599e+05   0.000    1.000
+Gaze.ClassificationLow                        -7.350e+01  9.993e+03  -0.007    0.994
+Optimal.Gaze.ClassificationLow                 5.359e+01  8.641e+03   0.006    0.995
+Poor.Gaze.ClassificationLow                    1.881e+01  5.019e+03   0.004    0.997
+RoomOffice:Movement.ClassificationLow         -1.056e+00  8.183e+03   0.000    1.000
+RoomOffice:Optimal.Movement.ClassificationLow -8.074e+00  4.599e+05   0.000    1.000
+RoomOffice:Poor.Movement.ClassificationLow     8.913e+00  4.599e+05   0.000    1.000
+RoomOffice:Rotation.ClassificationLow         -1.091e+01  4.600e+05   0.000    1.000
+RoomOffice:Optimal.Rotation.ClassificationLow  3.430e+01  5.907e+03   0.006    0.995
+RoomOffice:Poor.Rotation.ClassificationLow    -2.407e+01  4.600e+05   0.000    1.000
+RoomOffice:Gaze.ClassificationLow              1.919e+01  5.019e+03   0.004    0.997
+RoomOffice:Optimal.Gaze.ClassificationLow             NA         NA      NA       NA
+RoomOffice:Poor.Gaze.ClassificationLow        -1.811e+01  5.019e+03  -0.004    0.997
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 88.473  on 63  degrees of freedom
+Residual deviance: 62.913  on 45  degrees of freedom
+AIC: 100.91
+
+Number of Fisher Scoring iterations: 18
+
+
+> print("===== Binary Logistical Regression (Office) : Optimal ~ Movement Ratios =====")
+[1] "===== Binary Logistical Regression (Office) : Optimal ~ Movement Ratios ====="
+
+> blr <- glm(factor(Optimal) ~ # https://digitaschools.com/binary-logistic-regression-in-r/
++              Movement.Ratio +
++              Optimal.Mov .... [TRUNCATED] 
+
+> print(summary(blr))
+
+Call:
+glm(formula = factor(Optimal) ~ Movement.Ratio + Optimal.Movement.Ratio + 
+    Poor.Movement.Ratio + Head.Ratio + Optimal.Head.Ratio + Poor.Head.Ratio + 
+    Gaze.Ratio + Optimal.Gaze.Ratio + Poor.Gaze.Ratio, family = binomial, 
+    data = subset(subjects_data, Condition == "AR" & Room == 
+        "Office"))
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.2657  -0.8799   0.1139   0.8577   1.9053  
+
+Coefficients:
+                        Estimate Std. Error z value Pr(>|z|)
+(Intercept)              1.05129    1.84941   0.568    0.570
+Movement.Ratio          -0.62975    1.60829  -0.392    0.695
+Optimal.Movement.Ratio   0.40224    0.85707   0.469    0.639
+Poor.Movement.Ratio      0.04017    0.87353   0.046    0.963
+Head.Ratio              25.95635   18.27052   1.421    0.155
+Optimal.Head.Ratio      -2.72808    1.83765  -1.485    0.138
+Poor.Head.Ratio        -18.81780   15.83524  -1.188    0.235
+Gaze.Ratio             -69.63693   54.30212  -1.282    0.200
+Optimal.Gaze.Ratio      23.40781   22.21631   1.054    0.292
+Poor.Gaze.Ratio         45.93795   32.73316   1.403    0.160
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 43.860  on 31  degrees of freedom
+Residual deviance: 31.945  on 22  degrees of freedom
+AIC: 51.945
+
+Number of Fisher Scoring iterations: 7
+
+
+> print("===== Binary Logistical Regression (Office) : Optimal ~ Movement Categories =====")
+[1] "===== Binary Logistical Regression (Office) : Optimal ~ Movement Categories ====="
+
+> blr <- glm(factor(Optimal) ~ # https://digitaschools.com/binary-logistic-regression-in-r/
++              factor(Movement.Classification) +
++         .... [TRUNCATED] 
+
+> print(summary(blr))
+
+Call:
+glm(formula = factor(Optimal) ~ factor(Movement.Classification) + 
+    factor(Optimal.Movement.Classification) + factor(Poor.Movement.Classification) + 
+    factor(Rotation.Classification) + factor(Optimal.Rotation.Classification) + 
+    factor(Poor.Rotation.Classification) + factor(Gaze.Classification) + 
+    factor(Optimal.Gaze.Classification) + factor(Poor.Gaze.Classification), 
+    family = binomial, data = subset(subjects_data, Condition == 
+        "AR" & Room == "Office"))
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.7247  -1.1002   0.0001   0.9628   1.4220  
+
+Coefficients:
+                                             Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                  -0.06615    0.73608  -0.090    0.928
+factor(Movement.Classification)Low           17.88216 4176.84709   0.004    0.997
+factor(Optimal.Movement.Classification)Low  -35.02359 5906.95367  -0.006    0.995
+factor(Poor.Movement.Classification)Low      18.21368 4176.84707   0.004    0.997
+factor(Rotation.Classification)Low          -20.34394 7493.48398  -0.003    0.998
+factor(Optimal.Rotation.Classification)Low   34.90184 5906.95347   0.006    0.995
+factor(Poor.Rotation.Classification)Low     -15.03081 9541.71896  -0.002    0.999
+factor(Gaze.Classification)Low              -54.30626 8641.30405  -0.006    0.995
+factor(Optimal.Gaze.Classification)Low       53.58862 8641.30406   0.006    0.995
+factor(Poor.Gaze.Classification)Low           0.69800    1.02584   0.680    0.496
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 43.860  on 31  degrees of freedom
+Residual deviance: 31.512  on 22  degrees of freedom
+AIC: 51.512
+
+Number of Fisher Scoring iterations: 18
+
+
+> print("===== Binary Logistical Regression (Conference) : Optimal ~ Movement Ratios =====")
+[1] "===== Binary Logistical Regression (Conference) : Optimal ~ Movement Ratios ====="
+
+> blr <- glm(factor(Optimal) ~ # https://digitaschools.com/binary-logistic-regression-in-r/
++              Movement.Ratio +
++              Optimal.Mov .... [TRUNCATED] 
+
+> print(summary(blr))
+
+Call:
+glm(formula = factor(Optimal) ~ Movement.Ratio + Optimal.Movement.Ratio + 
+    Poor.Movement.Ratio + Head.Ratio + Optimal.Head.Ratio + Poor.Head.Ratio + 
+    Gaze.Ratio + Optimal.Gaze.Ratio + Poor.Gaze.Ratio, family = binomial, 
+    data = subset(subjects_data, Condition == "AR" & Room == 
+        "Conference"))
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.7842  -0.8106   0.1032   0.8423   1.5634  
+
+Coefficients:
+                        Estimate Std. Error z value Pr(>|z|)
+(Intercept)             -0.03298    1.42042  -0.023    0.981
+Movement.Ratio           0.52804    0.96853   0.545    0.586
+Optimal.Movement.Ratio  -0.34360    0.53034  -0.648    0.517
+Poor.Movement.Ratio     -0.21551    0.46852  -0.460    0.646
+Head.Ratio               1.41764   14.73510   0.096    0.923
+Optimal.Head.Ratio      -1.74069    3.06398  -0.568    0.570
+Poor.Head.Ratio          0.08627   14.07615   0.006    0.995
+Gaze.Ratio             -26.81866   67.44832  -0.398    0.691
+Optimal.Gaze.Ratio      26.62148   35.43449   0.751    0.452
+Poor.Gaze.Ratio          2.36610   34.21888   0.069    0.945
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 44.361  on 31  degrees of freedom
+Residual deviance: 33.363  on 22  degrees of freedom
+AIC: 53.363
+
+Number of Fisher Scoring iterations: 5
+
+
+> print("===== Binary Logistical Regression 2 (Conference) : Optimal ~ Movement Ratios =====")
+[1] "===== Binary Logistical Regression 2 (Conference) : Optimal ~ Movement Ratios ====="
+
+> blr <- glm(factor(Optimal) ~ # https://digitaschools.com/binary-logistic-regression-in-r/
++              Optimal.Head.Ratio +
++              Gaze.Ra .... [TRUNCATED] 
+
+> print(summary(blr))
+
+Call:
+glm(formula = factor(Optimal) ~ Optimal.Head.Ratio + Gaze.Ratio + 
+    Optimal.Gaze.Ratio, family = binomial, data = subset(subjects_data, 
+    Condition == "AR" & Room == "Conference"))
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.7400  -0.7779   0.1414   0.9276   1.6555  
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)
+(Intercept)         -0.2541     1.1047  -0.230    0.818
+Optimal.Head.Ratio  -1.9735     1.5809  -1.248    0.212
+Gaze.Ratio         -21.0274    14.5118  -1.449    0.147
+Optimal.Gaze.Ratio  22.9729    14.7702   1.555    0.120
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 44.361  on 31  degrees of freedom
+Residual deviance: 34.300  on 28  degrees of freedom
+AIC: 42.3
+
+Number of Fisher Scoring iterations: 5
+
+
+> print("===== Binary Logistical Regression (Conference) : Optimal ~ Movement Categories =====")
+[1] "===== Binary Logistical Regression (Conference) : Optimal ~ Movement Categories ====="
+
+> blr <- glm(factor(Optimal) ~ # https://digitaschools.com/binary-logistic-regression-in-r/
++              factor(Movement.Classification) +
++         .... [TRUNCATED] 
+
+> print(summary(blr))
+
+Call:
+glm(formula = factor(Optimal) ~ factor(Movement.Classification) + 
+    factor(Optimal.Movement.Classification) + factor(Poor.Movement.Classification) + 
+    factor(Rotation.Classification) + factor(Optimal.Rotation.Classification) + 
+    factor(Poor.Rotation.Classification) + factor(Gaze.Classification) + 
+    factor(Optimal.Gaze.Classification) + factor(Poor.Gaze.Classification), 
+    family = binomial, data = subset(subjects_data, Condition == 
+        "AR" & Room == "Conference"))
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-1.74550  -0.81660   0.00005   1.10283   1.36136  
+
+Coefficients: (1 not defined because of singularities)
+                                             Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                -2.209e-01  7.420e-01  -0.298    0.766
+factor(Movement.Classification)Low          1.794e+01  4.268e+03   0.004    0.997
+factor(Optimal.Movement.Classification)Low -2.545e+01  2.173e+05   0.000    1.000
+factor(Poor.Movement.Classification)Low     8.801e+00  2.173e+05   0.000    1.000
+factor(Rotation.Classification)Low         -8.929e+00  2.173e+05   0.000    1.000
+factor(Optimal.Rotation.Classification)Low  6.007e-01  1.109e+00   0.542    0.588
+factor(Poor.Rotation.Classification)Low     8.537e+00  2.173e+05   0.000    1.000
+factor(Gaze.Classification)Low             -1.891e+01  3.044e+03  -0.006    0.995
+factor(Optimal.Gaze.Classification)Low             NA         NA      NA       NA
+factor(Poor.Gaze.Classification)Low         1.781e+01  3.044e+03   0.006    0.995
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 44.361  on 31  degrees of freedom
+Residual deviance: 31.400  on 23  degrees of freedom
+AIC: 49.4
+
+Number of Fisher Scoring iterations: 17
+
+
+> print("===== Binary Logistical Regression 2 (Conference) : Optimal ~ Movement Categories =====")
+[1] "===== Binary Logistical Regression 2 (Conference) : Optimal ~ Movement Categories ====="
+
+> blr <- glm(factor(Optimal) ~ # https://digitaschools.com/binary-logistic-regression-in-r/
++              factor(Optimal.Rotation.Classification) +
++ .... [TRUNCATED] 
+
+> print(summary(blr))
+
+Call:
+glm(formula = factor(Optimal) ~ factor(Optimal.Rotation.Classification) + 
+    factor(Gaze.Classification) + factor(Optimal.Gaze.Classification), 
+    family = binomial, data = subset(subjects_data, Condition == 
+        "AR" & Room == "Conference"))
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.7344  -0.7962   0.0000   1.0579   1.7344  
+
+Coefficients: (1 not defined because of singularities)
+                                           Estimate Std. Error z value Pr(>|z|)  
+(Intercept)                                  0.2877     0.6668   0.431   0.6661  
+factor(Optimal.Rotation.Classification)Low   0.9651     0.7830   1.233   0.2177  
+factor(Gaze.Classification)Low              -1.5404     0.7830  -1.967   0.0491 *
+factor(Optimal.Gaze.Classification)Low           NA         NA      NA       NA  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 44.361  on 31  degrees of freedom
+Residual deviance: 38.191  on 29  degrees of freedom
+AIC: 44.191
+
+Number of Fisher Scoring iterations: 4
+
+
+> sink() # Stop writing file

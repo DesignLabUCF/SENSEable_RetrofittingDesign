@@ -1,0 +1,871 @@
+
+> correction_table <- data.frame(matrix(ncol=8, nrow=0)) 
+
+> colnames(correction_table) <- c("Room", "Condition", "Metric", "Statistic", "df", "P.Original", "Cramers.V", "P.Corrected")
+
+> # Total Movement classification and performance
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Office", "AR", "Movement.Classi ..." ... [TRUNCATED] 
+[1] "===== Chi-Square (Uncorrected) ~ Room: Office ~ Condition: AR ~ Metric: Movement.Classification ====="
+      
+       FALSE TRUE
+  High     7    9
+  Low      7    9
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0, df = 1, p-value = 1
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Conference", "AR", "Movement.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Conference ~ Condition: AR ~ Metric: Movement.Classification ====="
+      
+       FALSE TRUE
+  High     9    7
+  Low      7    9
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0.5, df = 1, p-value = 0.4795
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Office", "AR", "Rotation.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Office ~ Condition: AR ~ Metric: Rotation.Classification ====="
+      
+       FALSE TRUE
+  High     6   10
+  Low      8    8
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0.50794, df = 1, p-value = 0.476
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Conference", "AR", "Rotation.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Conference ~ Condition: AR ~ Metric: Rotation.Classification ====="
+      
+       FALSE TRUE
+  High     8    8
+  Low      8    8
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0, df = 1, p-value = 1
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Office", "AR", "Gaze.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Office ~ Condition: AR ~ Metric: Gaze.Classification ====="
+      
+       FALSE TRUE
+  High     6   10
+  Low      8    8
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0.50794, df = 1, p-value = 0.476
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Conference", "AR", "Gaze.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Conference ~ Condition: AR ~ Metric: Gaze.Classification ====="
+      
+       FALSE TRUE
+  High     5   11
+  Low     11    5
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 4.5, df = 1, p-value = 0.03389
+
+
+> # Optimal Movement classification and performance
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Office", "AR", "Optimal.Movem ..." ... [TRUNCATED] 
+[1] "===== Chi-Square (Uncorrected) ~ Room: Office ~ Condition: AR ~ Metric: Optimal.Movement.Classification ====="
+      
+       FALSE TRUE
+  High     7    9
+  Low      7    9
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0, df = 1, p-value = 1
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Conference", "AR", "Optimal.Movement.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Conference ~ Condition: AR ~ Metric: Optimal.Movement.Classification ====="
+      
+       FALSE TRUE
+  High     8    8
+  Low      8    8
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0, df = 1, p-value = 1
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Office", "AR", "Optimal.Rotation.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Office ~ Condition: AR ~ Metric: Optimal.Rotation.Classification ====="
+      
+       FALSE TRUE
+  High     8    8
+  Low      6   10
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0.50794, df = 1, p-value = 0.476
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Conference", "AR", "Optimal.Rotation.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Conference ~ Condition: AR ~ Metric: Optimal.Rotation.Classification ====="
+      
+       FALSE TRUE
+  High    10    6
+  Low      6   10
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 2, df = 1, p-value = 0.1573
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Office", "AR", "Optimal.Gaze.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Office ~ Condition: AR ~ Metric: Optimal.Gaze.Classification ====="
+      
+       FALSE TRUE
+  High     7    9
+  Low      7    9
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0, df = 1, p-value = 1
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Conference", "AR", "Optimal.Gaze.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Conference ~ Condition: AR ~ Metric: Optimal.Gaze.Classification ====="
+      
+       FALSE TRUE
+  High     5   11
+  Low     11    5
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 4.5, df = 1, p-value = 0.03389
+
+
+> # Poor Movement classification and performance
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Office", "AR", "Poor.Movement.Cl ..." ... [TRUNCATED] 
+[1] "===== Chi-Square (Uncorrected) ~ Room: Office ~ Condition: AR ~ Metric: Poor.Movement.Classification ====="
+      
+       FALSE TRUE
+  High     7    9
+  Low      7    9
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0, df = 1, p-value = 1
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Conference", "AR", "Poor.Movement.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Conference ~ Condition: AR ~ Metric: Poor.Movement.Classification ====="
+      
+       FALSE TRUE
+  High     9    7
+  Low      7    9
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0.5, df = 1, p-value = 0.4795
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Office", "AR", "Poor.Rotation.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Office ~ Condition: AR ~ Metric: Poor.Rotation.Classification ====="
+      
+       FALSE TRUE
+  High     7    9
+  Low      7    9
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0, df = 1, p-value = 1
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Conference", "AR", "Poor.Rotation.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Conference ~ Condition: AR ~ Metric: Poor.Rotation.Classification ====="
+      
+       FALSE TRUE
+  High     9    7
+  Low      7    9
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0.5, df = 1, p-value = 0.4795
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Office", "AR", "Poor.Gaze.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Office ~ Condition: AR ~ Metric: Poor.Gaze.Classification ====="
+      
+       FALSE TRUE
+  High     7    9
+  Low      7    9
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0, df = 1, p-value = 1
+
+
+> correction_table[nrow(correction_table) + 1,] <- movement_chi_sqr("Conference", "AR", "Poor.Gaze.Classification")
+[1] "===== Chi-Square (Uncorrected) ~ Room: Conference ~ Condition: AR ~ Metric: Poor.Gaze.Classification ====="
+      
+       FALSE TRUE
+  High     7    9
+  Low      9    7
+
+	Pearson's Chi-squared test
+
+data:  subjects_subset[[classification_metric]] and unlist(subjects_subset$Optimal)
+X-squared = 0.5, df = 1, p-value = 0.4795
+
+
+> # Apply Correction to Chi-square p-values
+> correction_table$P.Corrected <- p.adjust(correction_table$P.Original, method="hommel")
+
+> print(correction_table)
+         Room Condition                          Metric         Statistic df         P.Original Cramers.V P.Corrected
+1      Office        AR         Movement.Classification                 0  1                  1         0   1.0000000
+2  Conference        AR         Movement.Classification               0.5  1  0.479500122186953     0.125   1.0000000
+3      Office        AR         Rotation.Classification 0.507936507936508  1   0.47603349294243     0.126   1.0000000
+4  Conference        AR         Rotation.Classification                 0  1                  1         0   1.0000000
+5      Office        AR             Gaze.Classification 0.507936507936508  1   0.47603349294243     0.126   1.0000000
+6  Conference        AR             Gaze.Classification               4.5  1 0.0338948535246893     0.375   0.5762125
+7      Office        AR Optimal.Movement.Classification                 0  1                  1         0   1.0000000
+8  Conference        AR Optimal.Movement.Classification                 0  1                  1         0   1.0000000
+9      Office        AR Optimal.Rotation.Classification 0.507936507936508  1   0.47603349294243     0.126   1.0000000
+10 Conference        AR Optimal.Rotation.Classification                 2  1  0.157299207050284      0.25   1.0000000
+11     Office        AR     Optimal.Gaze.Classification                 0  1                  1         0   1.0000000
+12 Conference        AR     Optimal.Gaze.Classification               4.5  1 0.0338948535246893     0.375   0.5762125
+13     Office        AR    Poor.Movement.Classification                 0  1                  1         0   1.0000000
+14 Conference        AR    Poor.Movement.Classification               0.5  1  0.479500122186953     0.125   1.0000000
+15     Office        AR    Poor.Rotation.Classification                 0  1                  1         0   1.0000000
+16 Conference        AR    Poor.Rotation.Classification               0.5  1  0.479500122186953     0.125   1.0000000
+17     Office        AR        Poor.Gaze.Classification                 0  1                  1         0   1.0000000
+18 Conference        AR        Poor.Gaze.Classification               0.5  1  0.479500122186953     0.125   1.0000000
+
+> ## Another method, Ordinal Logist Regression (https://stats.oarc.ucla.edu/r/dae/ordinal-logistic-regression/)
+> # "Integer-ize" data
+> # subjects_or .... [TRUNCATED] 
+null device 
+          1 
+
+> interaction_plot("ARHeadMovement", subset(subjects_data, Condition=="AR"), "Room", "Optimal", "Poor.Movement.Ratio")
+null device 
+          1 
+
+> interaction_plot("ARHeadMovement", subset(subjects_data, Condition=="AR"), "Room", "Optimal", "Optimal.Movement.Ratio")
+null device 
+          1 
+
+> interaction_plot("ARHeadRotation", subset(subjects_data, Condition=="AR"), "Room", "Optimal", "Head.Ratio")
+null device 
+          1 
+
+> interaction_plot("ARHeadRotation", subset(subjects_data, Condition=="AR"), "Room", "Optimal", "Optimal.Head.Ratio")
+null device 
+          1 
+
+> interaction_plot("ARHeadRotation", subset(subjects_data, Condition=="AR"), "Room", "Optimal", "Poor.Head.Ratio")
+null device 
+          1 
+
+> interaction_plot("ARGaze", subset(subjects_data, Condition=="AR"), "Room", "Optimal", "Gaze.Ratio")
+null device 
+          1 
+
+> interaction_plot("ARGaze", subset(subjects_data, Condition=="AR"), "Room", "Optimal", "Optimal.Gaze.Ratio")
+null device 
+          1 
+
+> interaction_plot("ARGaze", subset(subjects_data, Condition=="AR"), "Room", "Optimal", "Poor.Gaze.Ratio")
+null device 
+          1 
+
+> print("==== AR Head Movement Ratios Manova ~ Room + Optimal ====")
+[1] "==== AR Head Movement Ratios Manova ~ Room + Optimal ===="
+
+> ar_movement_manova <- manova(cbind(Movement.Ratio,
++                                    Optimal.Movement.Ratio,
++                                    .... [TRUNCATED] 
+
+> print(summary(ar_movement_manova))
+          Df  Pillai approx F num Df den Df    Pr(>F)    
+Room       1 0.48865  18.7937      3     59 1.127e-08 ***
+Optimal    1 0.00790   0.1566      3     59    0.9251    
+Residuals 61                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> print(summary.aov(ar_movement_manova))
+ Response Movement.Ratio :
+            Df Sum Sq Mean Sq F value    Pr(>F)    
+Room         1 3700.9  3700.9  52.715 8.258e-10 ***
+Optimal      1   15.4    15.4   0.220    0.6407    
+Residuals   61 4282.5    70.2                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Optimal.Movement.Ratio :
+            Df Sum Sq Mean Sq F value    Pr(>F)    
+Room         1 4191.3  4191.3 53.3518 6.944e-10 ***
+Optimal      1   11.7    11.7  0.1487    0.7011    
+Residuals   61 4792.2    78.6                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Poor.Movement.Ratio :
+            Df Sum Sq Mean Sq F value    Pr(>F)    
+Room         1 2868.5  2868.5 41.0380 2.404e-08 ***
+Optimal      1   24.1    24.1  0.3448    0.5593    
+Residuals   61 4263.9    69.9                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+> print(shapiro.test(residuals(ar_movement_manova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(ar_movement_manova)
+W = 0.9749, p-value = 0.001588
+
+
+> print("Failed Assumption of normailty check so IGNORE")
+[1] "Failed Assumption of normailty check so IGNORE"
+
+> print("==== AR Head Rotation Ratios Manova ~ Room + Optimal + Room:Optimal ====")
+[1] "==== AR Head Rotation Ratios Manova ~ Room + Optimal + Room:Optimal ===="
+
+> ar_movement_manova <- manova(cbind(Head.Ratio,
++                                    Optimal.Head.Ratio,
++                                    Poor.He .... [TRUNCATED] 
+
+> print(summary(ar_movement_manova))
+             Df   Pillai approx F num Df den Df Pr(>F)
+Room          1 0.091218  1.94055      3     58 0.1331
+Optimal       1 0.056683  1.16171      3     58 0.3322
+Room:Optimal  1 0.017690  0.34816      3     58 0.7906
+Residuals    60                                       
+
+> print(summary.aov(ar_movement_manova))
+ Response Head.Ratio :
+             Df  Sum Sq  Mean Sq F value  Pr(>F)  
+Room          1 0.17003 0.170031  5.8065 0.01905 *
+Optimal       1 0.00036 0.000365  0.0124 0.91153  
+Room:Optimal  1 0.02584 0.025836  0.8823 0.35134  
+Residuals    60 1.75698 0.029283                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Optimal.Head.Ratio :
+             Df  Sum Sq Mean Sq F value  Pr(>F)  
+Room          1  0.0793 0.07933  0.4739 0.49387  
+Optimal       1  0.4945 0.49452  2.9537 0.09084 .
+Room:Optimal  1  0.0997 0.09971  0.5955 0.44332  
+Residuals    60 10.0454 0.16742                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Poor.Head.Ratio :
+             Df  Sum Sq  Mean Sq F value  Pr(>F)  
+Room          1 0.16302 0.163015  4.6376 0.03531 *
+Optimal       1 0.00330 0.003302  0.0939 0.76030  
+Room:Optimal  1 0.03096 0.030961  0.8808 0.35175  
+Residuals    60 2.10906 0.035151                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+> print(shapiro.test(residuals(ar_movement_manova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(ar_movement_manova)
+W = 0.76546, p-value = 3.205e-16
+
+
+> print("Failed Assumption of normailty check so IGNORE")
+[1] "Failed Assumption of normailty check so IGNORE"
+
+> print("==== AR Eye Gaze Ratios Manova ~ Room + Optimal + Room:Optimal ====")
+[1] "==== AR Eye Gaze Ratios Manova ~ Room + Optimal + Room:Optimal ===="
+
+> ar_movement_manova <- manova(cbind(Gaze.Ratio,
++                                    Optimal.Gaze.Ratio,
++                                    Poor.Ga .... [TRUNCATED] 
+
+> print(summary(ar_movement_manova))
+             Df   Pillai approx F num Df den Df   Pr(>F)   
+Room          1 0.196565   4.7300      3     58 0.005089 **
+Optimal       1 0.053682   1.0967      3     58 0.357864   
+Room:Optimal  1 0.107769   2.3352      3     58 0.083201 . 
+Residuals    60                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> print(summary.aov(ar_movement_manova))
+ Response Gaze.Ratio :
+             Df Sum Sq  Mean Sq F value Pr(>F)
+Room          1 0.2358 0.235818  1.9106 0.1720
+Optimal       1 0.0153 0.015302  0.1240 0.7260
+Room:Optimal  1 0.1832 0.183248  1.4847 0.2278
+Residuals    60 7.4054 0.123424               
+
+ Response Optimal.Gaze.Ratio :
+             Df Sum Sq  Mean Sq F value Pr(>F)
+Room          1 0.1686 0.168576  1.4346 0.2357
+Optimal       1 0.0221 0.022096  0.1880 0.6661
+Room:Optimal  1 0.2825 0.282502  2.4042 0.1263
+Residuals    60 7.0503 0.117506               
+
+ Response Poor.Gaze.Ratio :
+             Df Sum Sq  Mean Sq F value Pr(>F)
+Room          1 0.1745 0.174475  1.2105 0.2756
+Optimal       1 0.0315 0.031487  0.2185 0.6419
+Room:Optimal  1 0.0845 0.084465  0.5860 0.4470
+Residuals    60 8.6477 0.144129               
+
+
+> print(shapiro.test(residuals(ar_movement_manova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(ar_movement_manova)
+W = 0.89934, p-value = 4.151e-10
+
+
+> print("Failed Assumption of normailty check so IGNORE")
+[1] "Failed Assumption of normailty check so IGNORE"
+
+> print("==== Final Rank (All) Anova ~  ====")
+[1] "==== Final Rank (All) Anova ~  ===="
+
+> ar_movement_manova <- aov(Rank ~ Room * (
++                             Movement.Classification +
++                             Optimal.Movement.Cla .... [TRUNCATED] 
+
+> print(summary(ar_movement_manova))
+                                     Df Sum Sq Mean Sq F value  Pr(>F)   
+Room                                  1   36.0   36.00   1.695 0.19955   
+Movement.Classification               1    1.0    1.00   0.047 0.82919   
+Optimal.Movement.Classification       1   12.5   12.52   0.589 0.44666   
+Poor.Movement.Classification          1    3.4    3.43   0.161 0.68969   
+Rotation.Classification               1   34.2   34.17   1.609 0.21116   
+Optimal.Rotation.Classification       1  205.0  205.04   9.655 0.00327 **
+Poor.Rotation.Classification          1    1.9    1.87   0.088 0.76792   
+Gaze.Classification                   1  122.0  121.99   5.744 0.02076 * 
+Optimal.Gaze.Classification           1   43.3   43.27   2.038 0.16036   
+Poor.Gaze.Classification              1   33.2   33.18   1.562 0.21781   
+Room:Movement.Classification          1   33.1   33.07   1.557 0.21853   
+Room:Optimal.Movement.Classification  1    3.2    3.18   0.150 0.70066   
+Room:Poor.Movement.Classification     1    3.2    3.19   0.150 0.70030   
+Room:Rotation.Classification          1    4.8    4.81   0.226 0.63658   
+Room:Optimal.Rotation.Classification  1   17.9   17.85   0.841 0.36408   
+Room:Poor.Rotation.Classification     1    0.5    0.49   0.023 0.87970   
+Room:Gaze.Classification              1   51.1   51.10   2.406 0.12785   
+Room:Poor.Gaze.Classification         1    4.2    4.15   0.196 0.66048   
+Residuals                            45  955.7   21.24                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> print(shapiro.test(residuals(ar_movement_manova)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(ar_movement_manova)
+W = 0.96581, p-value = 0.07314
+
+
+> print("==== Final Rank (Conference) Anova ~  ====")
+[1] "==== Final Rank (Conference) Anova ~  ===="
+
+> # ar_movement_manova <- aov(Rank ~ 
+> #                             Movement.Classification +
+> #                             Optimal.Movement.Class .... [TRUNCATED] 
+
+> ar_movement_lm <- lm(lm_subjects$Rank ~ 
++                        ifelse(lm_subjects$Movement.Classification == "High", 1, 0) +
++                    .... [TRUNCATED] 
+
+> print(summary(ar_movement_lm))
+
+Call:
+lm(formula = lm_subjects$Rank ~ ifelse(lm_subjects$Movement.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Optimal.Movement.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Poor.Movement.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Rotation.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Optimal.Rotation.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Poor.Rotation.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Gaze.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Optimal.Gaze.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Poor.Gaze.Classification == 
+    "High", 1, 0))
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6.2408 -2.8796 -0.2775  2.5440  8.5465 
+
+Coefficients: (1 not defined because of singularities)
+                                                                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                                                          8.24085    1.53169   5.380 1.83e-05 ***
+ifelse(lm_subjects$Movement.Classification == "High", 1, 0)          5.48169    4.09658   1.338   0.1939    
+ifelse(lm_subjects$Optimal.Movement.Classification == "High", 1, 0) -3.73099    4.19543  -0.889   0.3830    
+ifelse(lm_subjects$Poor.Movement.Classification == "High", 1, 0)     0.36338    4.87115   0.075   0.9412    
+ifelse(lm_subjects$Rotation.Classification == "High", 1, 0)          0.07324    4.68211   0.016   0.9877    
+ifelse(lm_subjects$Optimal.Rotation.Classification == "High", 1, 0)  1.93944    2.24564   0.864   0.3967    
+ifelse(lm_subjects$Poor.Rotation.Classification == "High", 1, 0)    -0.82113    4.59979  -0.179   0.8599    
+ifelse(lm_subjects$Gaze.Classification == "High", 1, 0)             -7.70563    2.85566  -2.698   0.0128 *  
+ifelse(lm_subjects$Optimal.Gaze.Classification == "High", 1, 0)           NA         NA      NA       NA    
+ifelse(lm_subjects$Poor.Gaze.Classification == "High", 1, 0)         3.91831    2.63028   1.490   0.1499    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.442 on 23 degrees of freedom
+Multiple R-squared:  0.4371,	Adjusted R-squared:  0.2413 
+F-statistic: 2.232 on 8 and 23 DF,  p-value: 0.06312
+
+
+> print(shapiro.test(residuals(ar_movement_lm)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(ar_movement_lm)
+W = 0.97381, p-value = 0.6106
+
+
+> #print_sample_metric(subset(subjects_data, Condition=="AR" & Room=="Conference" & Optimal.Rotation.Classification == "High"), "Rank")
+> 
+> print("== ..." ... [TRUNCATED] 
+[1] "==== Final Rank (Office) Anova ~  ===="
+
+> lm_subjects <- subset(subjects_data, Condition=="AR" & Room=="Office")
+
+> ar_movement_lm <- lm(lm_subjects$Rank ~ 
++                        ifelse(lm_subjects$Movement.Classification == "High", 1, 0) +
++                    .... [TRUNCATED] 
+
+> print(summary(ar_movement_lm))
+
+Call:
+lm(formula = lm_subjects$Rank ~ ifelse(lm_subjects$Movement.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Optimal.Movement.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Poor.Movement.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Rotation.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Optimal.Rotation.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Poor.Rotation.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Gaze.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Optimal.Gaze.Classification == 
+    "High", 1, 0) + ifelse(lm_subjects$Poor.Gaze.Classification == 
+    "High", 1, 0))
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-6.208 -2.969 -0.500  4.109  8.018 
+
+Coefficients:
+                                                                    Estimate Std. Error t value Pr(>|t|)   
+(Intercept)                                                           6.0178     1.6833   3.575  0.00169 **
+ifelse(lm_subjects$Movement.Classification == "High", 1, 0)           2.0244     4.5106   0.449  0.65796   
+ifelse(lm_subjects$Optimal.Movement.Classification == "High", 1, 0)  -4.1711     3.6933  -1.129  0.27091   
+ifelse(lm_subjects$Poor.Movement.Classification == "High", 1, 0)      3.3372     4.5886   0.727  0.47472   
+ifelse(lm_subjects$Rotation.Classification == "High", 1, 0)          -5.7084     4.2616  -1.339  0.19408   
+ifelse(lm_subjects$Optimal.Rotation.Classification == "High", 1, 0)   6.0753     3.0290   2.006  0.05734 . 
+ifelse(lm_subjects$Poor.Rotation.Classification == "High", 1, 0)     -0.6843     4.8661  -0.141  0.88944   
+ifelse(lm_subjects$Gaze.Classification == "High", 1, 0)              -8.8395     4.3367  -2.038  0.05372 . 
+ifelse(lm_subjects$Optimal.Gaze.Classification == "High", 1, 0)       6.5678     4.1219   1.593  0.12534   
+ifelse(lm_subjects$Poor.Gaze.Classification == "High", 1, 0)          2.3630     2.3001   1.027  0.31542   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.777 on 22 degrees of freedom
+Multiple R-squared:  0.3067,	Adjusted R-squared:  0.02305 
+F-statistic: 1.081 on 9 and 22 DF,  p-value: 0.4141
+
+
+> print(shapiro.test(residuals(ar_movement_lm)))
+
+	Shapiro-Wilk normality test
+
+data:  residuals(ar_movement_lm)
+W = 0.95022, p-value = 0.1462
+
+
+> usability_wilcoxin_room <- function(room, metric){
++   print(paste0("===== Wilcoxin"," ~ Room: ", room, " ~ Metric: ", metric, " ====="))
++   subjec .... [TRUNCATED] 
+
+> usability_wilcoxin_condition <- function(condition, metric){
++   print(paste0("===== Wilcoxin"," ~ Condition: ", condition, " ~ Metric: ", metric, " ..." ... [TRUNCATED] 
+
+> usability_wilcoxin_condition("AR", "Movement.Ratio")
+[1] "===== Wilcoxin ~ Condition: AR ~ Metric: Movement.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[metric]] by subjects$Room
+W = 896, p-value = 2.614e-07
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 12.08170 20.69424
+sample estimates:
+difference in location 
+              16.58113 
+
+
+Cohen's d
+
+d estimate: 1.826655 (large)
+95 percent confidence interval:
+   lower    upper 
+1.231754 2.421555 
+
+    r 
+0.645 
+
+> usability_wilcoxin_condition("AR", "Head.Ratio")
+[1] "===== Wilcoxin ~ Condition: AR ~ Metric: Head.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[metric]] by subjects$Room
+W = 678, p-value = 0.02627
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.01371226 0.18579456
+sample estimates:
+difference in location 
+             0.1041104 
+
+
+Cohen's d
+
+d estimate: 0.6078576 (medium)
+95 percent confidence interval:
+    lower     upper 
+0.0967043 1.1190108 
+
+    r 
+0.279 
+
+> usability_wilcoxin_condition("AR", "Gaze.Ratio")
+[1] "===== Wilcoxin ~ Condition: AR ~ Metric: Gaze.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[metric]] by subjects$Room
+W = 639, p-value = 0.0894
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -0.006303408  0.277300464
+sample estimates:
+difference in location 
+             0.1280564 
+
+
+Cohen's d
+
+d estimate: 0.3466604 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.1568220  0.8501427 
+
+    r 
+0.214 
+
+> usability_wilcoxin_movement("AR", "Conference", "Gaze.Classification", "DL_Rank")
+[1] "===== Wilcoxin (Movement) ~ Room: Conference ~ Condition: AR ~ Movement_Metric: Gaze.Classification ~ Usability_Metric: DL_Rank ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[usability_metric]] by subjects[[movement_metric]]
+W = 61, p-value = 0.01157
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -6.9999538 -0.9999274
+sample estimates:
+difference in location 
+             -3.999963 
+
+
+Cohen's d
+
+d estimate: -1.002375 (large)
+95 percent confidence interval:
+     lower      upper 
+-1.7684298 -0.2363208 
+
+     r 
+-0.449 
+
+> usability_wilcoxin_movement("AR", "Conference", "Gaze.Classification", "G_Rank")
+[1] "===== Wilcoxin (Movement) ~ Room: Conference ~ Condition: AR ~ Movement_Metric: Gaze.Classification ~ Usability_Metric: G_Rank ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[usability_metric]] by subjects[[movement_metric]]
+W = 91, p-value = 0.1658
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -5.0000012  0.9999502
+sample estimates:
+difference in location 
+              -2.99998 
+
+
+Cohen's d
+
+d estimate: -0.6197814 (medium)
+95 percent confidence interval:
+     lower      upper 
+-1.3589656  0.1194028 
+
+     r 
+-0.247 
+
+> usability_wilcoxin_movement("AR", "Conference", "Gaze.Classification", "VF_Rank")
+[1] "===== Wilcoxin (Movement) ~ Room: Conference ~ Condition: AR ~ Movement_Metric: Gaze.Classification ~ Usability_Metric: VF_Rank ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[usability_metric]] by subjects[[movement_metric]]
+W = 124, p-value = 0.8943
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -2.000074  2.000017
+sample estimates:
+difference in location 
+         -9.279058e-05 
+
+
+Cohen's d
+
+d estimate: 0 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.7220524  0.7220524 
+
+      r 
+-0.0269 
+
+> usability_wilcoxin_movement("AR", "Office", "Gaze.Classification", "Movement.Ratio")
+[1] "===== Wilcoxin (Movement) ~ Room: Office ~ Condition: AR ~ Movement_Metric: Gaze.Classification ~ Usability_Metric: Movement.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[usability_metric]] by subjects[[movement_metric]]
+W = 135, p-value = 0.8065
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -2.866936  4.241084
+sample estimates:
+difference in location 
+             0.6554069 
+
+
+Cohen's d
+
+d estimate: 0.1209252 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.6017867  0.8436372 
+
+     r 
+0.0467 
+
+> usability_wilcoxin_movement("AR", "Office", "Gaze.Classification", "Head.Ratio")
+[1] "===== Wilcoxin (Movement) ~ Room: Office ~ Condition: AR ~ Movement_Metric: Gaze.Classification ~ Usability_Metric: Head.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[usability_metric]] by subjects[[movement_metric]]
+W = 148, p-value = 0.4624
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -0.06105372  0.14791083
+sample estimates:
+difference in location 
+             0.0433831 
+
+
+Cohen's d
+
+d estimate: 0.2551479 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.4698364  0.9801321 
+
+    r 
+0.133 
+
+> usability_wilcoxin_movement("AR", "Conference", "Gaze.Classification", "Movement.Ratio")
+[1] "===== Wilcoxin (Movement) ~ Room: Conference ~ Condition: AR ~ Movement_Metric: Gaze.Classification ~ Usability_Metric: Movement.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[usability_metric]] by subjects[[movement_metric]]
+W = 191, p-value = 0.01849
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+  1.204843 17.096370
+sample estimates:
+difference in location 
+              8.701213 
+
+
+Cohen's d
+
+d estimate: 0.8846924 (large)
+95 percent confidence interval:
+    lower     upper 
+0.1281431 1.6412417 
+
+    r 
+0.419 
+
+> usability_wilcoxin_movement("AR", "Conference", "Gaze.Classification", "Head.Ratio")
+[1] "===== Wilcoxin (Movement) ~ Room: Conference ~ Condition: AR ~ Movement_Metric: Gaze.Classification ~ Usability_Metric: Head.Ratio ====="
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  subjects[[usability_metric]] by subjects[[movement_metric]]
+W = 187, p-value = 0.02747
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.01989603 0.28948951
+sample estimates:
+difference in location 
+             0.1585136 
+
+
+Cohen's d
+
+d estimate: 0.792187 (medium)
+95 percent confidence interval:
+     lower      upper 
+0.04234857 1.54202542 
+
+    r 
+0.392 
+
+> sink() # Stop writing file

@@ -1,0 +1,14 @@
+Ladybug Radiation Baking Process:
+1. Set Test and Context BREP's on Radiation Analysis Node
+2. Toggle the Radiation Analysis Node's _runIt toggle to True
+3. Update Texture Maker Node's values to current facade-environment combo
+4. Toggle Texture Maker Node's _bakeIt to True (if already True, toggle to false then True again)
+5. Bake Texture Maker Node to 'baked' layer
+6. Set Material texture to the new texture on the 'baked' layer material.
+
+Create Material For Unreal:
+1. Clear geometry and context values on Radiation Analysis Node
+2. Update Texture Maker Node's values to current facade-environment combo
+3. Toggle the Radiation Analysis Node's _runIt toggle to True
+4. Toggle Texture Maker Node's _bakeIt to True (if already True, toggle to false then True again)
+5. Update texture on material in Rhino
